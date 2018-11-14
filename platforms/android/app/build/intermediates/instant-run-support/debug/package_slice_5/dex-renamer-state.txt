@@ -1,0 +1,4 @@
+#Tue Nov 13 16:18:24 ICT 2018
+base.0=D\:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\63
+path.0=classes.dex
+renamed.0=classes.dex
