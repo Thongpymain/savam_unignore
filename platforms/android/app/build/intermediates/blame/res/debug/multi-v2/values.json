@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,308,390,494,597,717,815",
-                        "endColumns": "143,108,81,103,102,119,97,74",
-                        "endOffsets": "194,303,385,489,592,712,810,885"
-                    },
-                    "to": {
-                        "startLines": "113,116,117,118,119,120,121,127",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7695,7973,8082,8164,8268,8371,8491,8937",
-                        "endColumns": "143,108,81,103,102,119,97,74",
-                        "endOffsets": "7834,8077,8159,8263,8366,8486,8584,9007"
-                    }
-                },
                 {
                     "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\values\\values.xml",
                     "from": {
@@ -37,6 +20,25 @@
                         "endLines": "18,19,22,24,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,90,131,133,137,139,145,147,149,150",
                         "endColumns": "68,62,57,73,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
                         "endOffsets": "1224,1287,1505,1652,3279,3347,3419,3489,3550,3611,3672,3734,3798,3860,3921,3989,4089,4149,4215,4288,4357,4414,4466,4528,4600,4676,4711,4746,4780,4815,4850,5048,9331,9518,9719,9895,10279,10474,10613,10680"
+                    }
+                },
+                {
+                    "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,14,19,21,3,9,20,11,12,5,8",
+                        "startColumns": "4,4,2,2,2,4,2,2,2,2,2,2",
+                        "startOffsets": "172,57,762,1053,1227,112,558,1142,607,677,235,489",
+                        "endLines": "4,2,14,19,21,3,9,20,11,12,7,8",
+                        "endColumns": "63,53,98,87,49,58,45,83,68,81,44,67",
+                        "endOffsets": "231,106,858,1138,1274,166,601,1223,673,756,485,554"
+                    },
+                    "to": {
+                        "startLines": "91,92,111,112,115,122,123,124,125,126,128,132",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5053,5117,7504,7605,7921,8589,8648,8696,8782,8853,9012,9336",
+                        "endLines": "91,92,111,112,115,122,123,124,125,126,130,132",
+                        "endColumns": "63,53,100,89,51,58,47,85,70,83,44,69",
+                        "endOffsets": "5112,5166,7600,7690,7968,8643,8691,8777,8848,8932,9260,9401"
                     }
                 },
                 {
@@ -91,13 +93,13 @@
                     }
                 },
                 {
-                    "source": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "6,7,8,9,10,4,2,3",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "200,248,296,344,392,153,55,102",
+                        "startOffsets": "206,255,304,353,402,157,57,105",
                         "endColumns": "47,47,47,47,47,45,46,50",
-                        "endOffsets": "243,291,339,387,435,194,97,148"
+                        "endOffsets": "249,298,347,396,445,198,99,151"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -108,22 +110,20 @@
                     }
                 },
                 {
-                    "source": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "4,2,14,19,21,3,9,20,11,12,5,8",
-                        "startColumns": "4,4,2,2,2,4,2,2,2,2,2,2",
-                        "startOffsets": "168,55,748,1034,1206,109,549,1122,596,665,230,481",
-                        "endLines": "4,2,14,19,21,3,9,20,11,12,7,8",
-                        "endColumns": "63,53,98,87,49,58,45,83,68,81,44,67",
-                        "endOffsets": "227,104,844,1119,1253,163,592,1203,662,744,478,546"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,308,390,494,597,717,815",
+                        "endColumns": "143,108,81,103,102,119,97,74",
+                        "endOffsets": "194,303,385,489,592,712,810,885"
                     },
                     "to": {
-                        "startLines": "91,92,111,112,115,122,123,124,125,126,128,132",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5053,5117,7504,7605,7921,8589,8648,8696,8782,8853,9012,9336",
-                        "endLines": "91,92,111,112,115,122,123,124,125,126,130,132",
-                        "endColumns": "63,53,100,89,51,58,47,85,70,83,44,69",
-                        "endOffsets": "5112,5166,7600,7690,7968,8643,8691,8777,8848,8932,9260,9401"
+                        "startLines": "113,116,117,118,119,120,121,127",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7695,7973,8082,8164,8268,8371,8491,8937",
+                        "endColumns": "143,108,81,103,102,119,97,74",
+                        "endOffsets": "7834,8077,8159,8263,8366,8486,8584,9007"
                     }
                 },
                 {

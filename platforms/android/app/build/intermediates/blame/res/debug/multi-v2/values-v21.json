@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\63b3ce91ad3f6ca78e437e6403bddc30\\res\\values-v21\\values-v21.xml",

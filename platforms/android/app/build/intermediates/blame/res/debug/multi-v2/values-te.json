@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PymainPJ\\savam_mobile_app\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\4cffadccb8554b9ec0584968ad768462\\res\\values-te\\values.xml",
