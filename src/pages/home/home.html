@@ -1,0 +1,82 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Savam</ion-title>
+  </ion-navbar>
+  <div class="bg-search">
+    <ion-item style="border-radius: 7px;">        
+      <ion-label><ion-icon name="search"></ion-icon></ion-label>
+      <ion-input type="text" class="searchTab" placeholder="ค้นหาร้านอาหาร" (click)="search()"></ion-input>
+    </ion-item>
+  </div>
+</ion-header>
+
+<ion-content class="bg-app">
+  <div class="card">
+    <ion-row style="padding-top: 20px;">
+      <ion-col col-3>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/01-sushi.png">
+          <p>อาหารญี่ปุ่น</p>
+        </button>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/01-sushi.png">
+          <p>อาหารจีน</p>
+        </button>
+      </ion-col>
+      <ion-col col-3>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/02-fried-rice.png">
+          <p>ตามสั่ง</p>
+        </button>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/02-fried-rice.png">
+          <p>ตามสั่ง</p>
+        </button>
+      </ion-col>    
+      <ion-col col-3>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/03-salmon.png"style="min-height: 32px;">
+          <p>สเต็ก</p>
+        </button>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/03-salmon.png"style="min-height: 32px;">
+          <p>สเต็ก</p>
+        </button>
+      </ion-col>    
+      <ion-col col-3>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/04-hamburger.png">
+          <p>ฟาสฟู๊ด</p>
+        </button>
+        <button class="btn-home">
+          <img src="assets/imgs/01-Home/04-hamburger.png">
+          <p>ฟาสฟู๊ด</p>
+        </button>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="card" style="margin-top: 20px; padding-bottom: 10px;">
+    <ion-row style="margin-bottom: 10px;">
+      <ion-col col-8>
+        <div class="head-text">ร้านอาหารติดอันดับ</div>
+      </ion-col>
+      <ion-col col-4 text-right>
+        <div class="view-text">ดูทั้งหมด</div>
+      </ion-col>
+    </ion-row>
+    <ion-slides slidesPerView="2.2" spaceBetween="1"> 
+      <ion-slide>
+        <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

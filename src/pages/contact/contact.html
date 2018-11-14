@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>โปรไฟล์</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-app">
+  <div class="card">
+  <ion-row>
+    <img src="assets/imgs/04-Profile/20150723170640.png"
+    style="margin: auto; margin-top: 40px; margin-bottom: 35px;">
+  </ion-row>
+  <ion-row>
+    <ul>
+      <li>        
+        <button class="btn-setting" (click)="ProfileConfig()">
+          <img src="assets/imgs/04-Profile/Settings-2.png">ตั้งค่าโปรไฟล์ของฉัน
+          <ion-icon name="arrow-forward" style="float: right;"></ion-icon></button>
+      </li><hr>
+      <li>
+        <button class="btn-setting">
+          <img src="assets/imgs/04-Profile/Notification.png">การแจ้งเตือน
+          <ion-toggle checked="false" style="float: right;"></ion-toggle></button>
+      </li><hr>
+      <li>
+        <button class="btn-setting" (click)="ContactUs()">
+          <img src="assets/imgs/04-Profile/mobile.png">ติดต่อเรา
+          <ion-icon name="arrow-forward" style="float: right;"></ion-icon></button>
+      </li><hr>
+    </ul>
+  </ion-row>
+  </div>
+  <ion-row style="margin-top: 40px;">
+    <button class="btn-signout">ออกจากระบบ</button>
+  </ion-row>
+</ion-content>

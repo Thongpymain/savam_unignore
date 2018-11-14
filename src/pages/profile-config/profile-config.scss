@@ -1,0 +1,47 @@
+page-profile-config {
+    .btn-setting {
+        font-size: 18px;
+        width: 100%;
+        background: none;
+    }
+    .btn-setting img {
+        margin-right: 20px;
+    }
+    .btn-signout {
+        background: #F26618;
+        color: #fff;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        width: 100%;
+        height: 55px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 10px;
+        width: 100%;
+        margin-right: 10px;
+    }
+    p {
+        color: #999;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .toggle-ios.toggle-checked .toggle-icon {
+        background-color: #F26618;
+    }
+    .camera {
+        color: #fff;
+        background: #F26618;
+        padding: 5px;
+        border: none;
+        border-radius: 50%;
+        margin-top: 105px;
+        margin-left: 0px;
+    }
+    ion-icon {
+        color: #999;
+    }
+}

@@ -1,0 +1,37 @@
+page-home {
+    .bg-search{
+        background: #F26618;
+        text-align: center;
+        height: 60px;
+        padding: 10px 10px;
+    }
+    .searchTab{
+        background: #fff;
+        width: 100%;
+        border: none;
+        text-align: center;
+    }
+    .btn-home{
+        background: none;
+        text-align: center;
+        width: 100%;
+    }
+    .btn-home img{
+        background: none;
+        text-align: center;
+        width: 50%;
+    }
+    .head-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .view-text {
+        margin-right: 10px;
+        color: #F26618;
+        margin-top: 10px;
+    }
+    ion-slide.swiper-slide.swiper-slide-active {
+        margin-left: 10px;
+    }
+}

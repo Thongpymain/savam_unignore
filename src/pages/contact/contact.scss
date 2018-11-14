@@ -1,0 +1,32 @@
+page-contact {
+    .btn-setting {
+        padding: 5px 10px;
+        font-size: 18px;
+        width: 100%;
+        background: none;
+        text-align: left;
+    }
+    .btn-setting img {
+        margin-right: 20px;
+    }
+    .btn-signout {
+        background: #F26618;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 10px;
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    .toggle-ios.toggle-checked .toggle-icon {
+        background-color: #F26618;
+    }
+}
