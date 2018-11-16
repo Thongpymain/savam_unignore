@@ -232,7 +232,8 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f05001f;
     public static final int notification_tile_bg=0x7f050020;
     public static final int notify_panel_notification_icon_bg=0x7f050021;
-    public static final int screen=0x7f050022;
+    public static final int savam_splash=0x7f050022;
+    public static final int screen=0x7f050023;
   }
   public static final class id {
     public static final int action0=0x7f060000;
@@ -300,6 +301,7 @@ public final class R {
   public static final class mipmap {
     public static final int ic_launcher=0x7f090000;
     public static final int icon=0x7f090001;
+    public static final int spoon_icon=0x7f090002;
   }
   public static final class string {
     public static final int activity_name=0x7f0a0000;

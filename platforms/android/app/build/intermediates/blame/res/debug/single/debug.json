@@ -4,6 +4,10 @@
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\savam_splash.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxhdpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -92,6 +100,10 @@
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\spoon_icon.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
@@ -104,8 +116,16 @@
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\spoon_icon.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-ldpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_screen.png.flat",
@@ -132,8 +152,20 @@
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\savam_splash.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-ldpi\\spoon_icon.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
@@ -216,6 +248,10 @@
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\ic_stat_ic_notification.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\spoon_icon.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
     },
@@ -238,6 +274,14 @@
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-mdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\savam_splash.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -268,6 +312,14 @@
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\screen.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\spoon_icon.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\savam_splash.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
@@ -296,8 +348,16 @@
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-hdpi\\screen.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-xhdpi\\savam_splash.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_icon.png.flat",
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxhdpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-ldpi_screen.png.flat",
@@ -356,6 +416,10 @@
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_spoon_icon.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\spoon_icon.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
     },
@@ -372,6 +436,10 @@
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-mdpi\\screen.png"
     },
     {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\savam_splash.png"
+    },
+    {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
@@ -382,6 +450,10 @@
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xhdpi_ic_stat_ic_notification.png.flat",
         "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-land-xhdpi\\ic_stat_ic_notification.png"
+    },
+    {
+        "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_savam_splash.png.flat",
+        "source": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\savam_splash.png"
     },
     {
         "merged": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",

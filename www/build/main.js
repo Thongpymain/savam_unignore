@@ -49,10 +49,9 @@ var ContactusPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotPasswordPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verify_email_verify_email__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,34 +63,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
 /**
- * Generated class for the ForgotPasswordPage page.
+ * Generated class for the NewsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ForgotPasswordPage = /** @class */ (function () {
-    function ForgotPasswordPage(navCtrl, navParams) {
+var NewsPage = /** @class */ (function () {
+    function NewsPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    ForgotPasswordPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ForgotPasswordPage');
+    NewsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad NewsPage');
     };
-    ForgotPasswordPage.prototype.send = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__verify_email_verify_email__["a" /* VerifyEmailPage */]);
-    };
-    ForgotPasswordPage = __decorate([
+    NewsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-forgot-password',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\forgot-password\forgot-password.html"*/'<!--\n\n  Generated template for the ForgotPasswordPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <!-- <ion-title>forgot-password</ion-title> -->\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-row>\n\n    <img src="assets/imgs/00-Log in/forgot password-01.png"\n\n    style="margin: auto; margin-top: 30px; margin-bottom: 20px;">\n\n  </ion-row>\n\n  <ion-row><div class="forgot-txt">ลืมรหัสผ่าน</div></ion-row>\n\n  <ion-row><div class="details">กรอกอีเมลของคุณ เราจะส่งรหัสผ่านใหม่ไปยังอีเมลของคุณ</div></ion-row>\n\n  <ion-row>\n\n    <ion-input placeholder="อีเมล"></ion-input>\n\n  </ion-row>\n\n  <ion-row>\n\n    <button class="send-email" (click)="send()">ส่งไปยังอีเมล</button>\n\n  </ion-row>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\forgot-password\forgot-password.html"*/,
+            selector: 'page-news',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news\news.html"*/'<!--\n\n  Generated template for the NewsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title style="background: #fff; color: #F26618;">ข่าวสาร</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header> -->\n\n\n\n\n\n<ion-content>\n\n  <div class="head-text">ข่าวสาร</div><hr>\n\n  <ion-row>\n\n    <div class="new-shop">ร้านมาใหม่</div>\n\n  </ion-row>\n\n  <ion-row>\n\n    <div class="head-text-news">House Of Eden คาเฟ่สีชมพูสะดุดตา เปิดใหม่บนชั้น 2 CentralWorld</div>\n\n  </ion-row>\n\n  <ion-row>\n\n    <img src="assets/imgs/03-News/pic-news3.png" style="margin: auto; margin-top: 10px;">\n\n  </ion-row>\n\n  <ion-row>\n\n    <p>เรียกความตื่นเต้นจากเหล่าสาว ๆ สาย Cafe Hopping ได้ดีกันอีกครั้งกับ \n\n      House Of Eden คาเฟ่เปิดใหม่บนชั้น 2 ของโครงการ Go...</p>\n\n  </ion-row><hr>\n\n  <ion-row>\n\n    <ion-col col-4>\n\n      <img src="assets/imgs/03-News/pic-news1.png">\n\n    </ion-col>\n\n    <ion-col col-8>\n\n      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>\n\n      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>\n\n    </ion-col>\n\n  </ion-row><hr>\n\n  <ion-row>\n\n    <ion-col col-4>\n\n      <img src="assets/imgs/03-News/pic-news1.png">\n\n    </ion-col>\n\n    <ion-col col-8>\n\n      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>\n\n      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news\news.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ForgotPasswordPage);
-    return ForgotPasswordPage;
+    ], NewsPage);
+    return NewsPage;
 }());
 
-//# sourceMappingURL=forgot-password.js.map
+//# sourceMappingURL=news.js.map
 
 /***/ }),
 
@@ -144,9 +139,10 @@ var VerifyEmailPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NewsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgotPasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__verify_email_verify_email__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -158,30 +154,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
- * Generated class for the NewsPage page.
+ * Generated class for the ForgotPasswordPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var NewsPage = /** @class */ (function () {
-    function NewsPage(navCtrl, navParams) {
+var ForgotPasswordPage = /** @class */ (function () {
+    function ForgotPasswordPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    NewsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad NewsPage');
+    ForgotPasswordPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ForgotPasswordPage');
     };
-    NewsPage = __decorate([
+    ForgotPasswordPage.prototype.send = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__verify_email_verify_email__["a" /* VerifyEmailPage */]);
+    };
+    ForgotPasswordPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-news',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news\news.html"*/'<!--\n\n  Generated template for the NewsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<!-- <ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title style="background: #fff; color: #F26618;">ข่าวสาร</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header> -->\n\n\n\n\n\n<ion-content>\n\n  <div class="head-text">ข่าวสาร</div><hr>\n\n  <ion-row>\n\n    <div class="new-shop">ร้านมาใหม่</div>\n\n  </ion-row>\n\n  <ion-row>\n\n    <div class="head-text-news">House Of Eden คาเฟ่สีชมพูสะดุดตา เปิดใหม่บนชั้น 2 CentralWorld</div>\n\n  </ion-row>\n\n  <ion-row>\n\n    <img src="assets/imgs/03-News/pic-news3.png" style="margin: auto; margin-top: 10px;">\n\n  </ion-row>\n\n  <ion-row>\n\n    <p>เรียกความตื่นเต้นจากเหล่าสาว ๆ สาย Cafe Hopping ได้ดีกันอีกครั้งกับ \n\n      House Of Eden คาเฟ่เปิดใหม่บนชั้น 2 ของโครงการ Go...</p>\n\n  </ion-row><hr>\n\n  <ion-row>\n\n    <ion-col col-4>\n\n      <img src="assets/imgs/03-News/pic-news1.png">\n\n    </ion-col>\n\n    <ion-col col-8>\n\n      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>\n\n      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>\n\n    </ion-col>\n\n  </ion-row><hr>\n\n  <ion-row>\n\n    <ion-col col-4>\n\n      <img src="assets/imgs/03-News/pic-news1.png">\n\n    </ion-col>\n\n    <ion-col col-8>\n\n      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>\n\n      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>\n\n    </ion-col>\n\n  </ion-row>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news\news.html"*/,
+            selector: 'page-forgot-password',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\forgot-password\forgot-password.html"*/'<!--\n\n  Generated template for the ForgotPasswordPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <!-- <ion-title>forgot-password</ion-title> -->\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-row>\n\n    <img src="assets/imgs/00-Log in/forgot password-01.png"\n\n    style="margin: auto; margin-top: 30px; margin-bottom: 20px;">\n\n  </ion-row>\n\n  <ion-row><div class="forgot-txt">ลืมรหัสผ่าน</div></ion-row>\n\n  <ion-row><div class="details">กรอกอีเมลของคุณ เราจะส่งรหัสผ่านใหม่ไปยังอีเมลของคุณ</div></ion-row>\n\n  <ion-row>\n\n    <ion-input placeholder="อีเมล"></ion-input>\n\n  </ion-row>\n\n  <ion-row>\n\n    <button class="send-email" (click)="send()">ส่งไปยังอีเมล</button>\n\n  </ion-row>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\forgot-password\forgot-password.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], NewsPage);
-    return NewsPage;
+    ], ForgotPasswordPage);
+    return ForgotPasswordPage;
 }());
 
-//# sourceMappingURL=news.js.map
+//# sourceMappingURL=forgot-password.js.map
 
 /***/ }),
 
@@ -237,7 +237,7 @@ var ProfileConfigPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SigninPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forgot_password_forgot_password__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forgot_password_forgot_password__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__signup_signup__ = __webpack_require__(51);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -366,11 +366,11 @@ var map = {
 		9
 	],
 	"../pages/forgot-password/forgot-password.module": [
-		281,
+		286,
 		8
 	],
 	"../pages/news-datails/news-datails.module": [
-		286,
+		281,
 		0
 	],
 	"../pages/news/news.module": [
@@ -378,11 +378,11 @@ var map = {
 		7
 	],
 	"../pages/profile-config/profile-config.module": [
-		283,
+		287,
 		6
 	],
 	"../pages/search/search.module": [
-		284,
+		283,
 		5
 	],
 	"../pages/signin/signin.module": [
@@ -390,11 +390,11 @@ var map = {
 		4
 	],
 	"../pages/signup/signup.module": [
-		285,
+		284,
 		3
 	],
 	"../pages/verify-email/verify-email.module": [
-		287,
+		285,
 		2
 	],
 	"../pages/welcome/welcome.module": [
@@ -566,12 +566,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_welcome_welcome__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_signin_signin__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_signup_signup__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_forgot_password_forgot_password__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_forgot_password_forgot_password__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_verify_email_verify_email__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contact_contact__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_home_home__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_news_news__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_news_news__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_search_search__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(279);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_profile_config_profile_config__ = __webpack_require__(105);
@@ -629,13 +629,13 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/contactus/contactus.module#ContactusPageModule', name: 'ContactusPage', segment: 'contactus', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', name: 'ForgotPasswordPage', segment: 'forgot-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/news-datails/news-datails.module#NewsDatailsPageModule', name: 'NewsDatailsPage', segment: 'news-datails', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/news/news.module#NewsPageModule', name: 'NewsPage', segment: 'news', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/profile-config/profile-config.module#ProfileConfigPageModule', name: 'ProfileConfigPage', segment: 'profile-config', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/news-datails/news-datails.module#NewsDatailsPageModule', name: 'NewsDatailsPage', segment: 'news-datails', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/verify-email/verify-email.module#VerifyEmailPageModule', name: 'VerifyEmailPage', segment: 'verify-email', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', name: 'ForgotPasswordPage', segment: 'forgot-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/profile-config/profile-config.module#ProfileConfigPageModule', name: 'ProfileConfigPage', segment: 'profile-config', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signin/signin.module#SigninPageModule', name: 'SigninPage', segment: 'signin', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/welcome/welcome.module#WelcomePageModule', name: 'WelcomePage', segment: 'welcome', priority: 'low', defaultHistory: [] }
                     ]
@@ -728,7 +728,7 @@ var MyApp = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__about_about__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contact_contact__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__news_news__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__news_news__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__search_search__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
