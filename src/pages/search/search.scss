@@ -16,4 +16,37 @@ page-search {
         background: none;
         font-size: 14px;
     }
+    #map {
+        width: 100%;
+        height: 100%;
+        position : fixed !important;
+      }
+
+     .contentMarkerImage{
+        margin: auto; 
+        margin-top: 10px;
+        width:150px;
+        height:150px;
+     } 
+
+     .contentTableMarker {
+         display: table-cell;
+     }
+
+     .contentTextMarker {
+        text-align: center;
+     }
+
+     .buttonInMarker {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 40px;
+     }
+     .button{
+        width: 100px;
+        height: 30px;
+        background: orangered;
+        border-radius: 12px;
+     }
 }

@@ -20,6 +20,8 @@ import { ContactusPage } from '../pages/contactus/contactus';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Geolocation } from '@ionic-native/geolocation';
+
 
 @NgModule({
   declarations: [
@@ -61,7 +63,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   providers: [
     StatusBar,
-    SplashScreen,
+    SplashScreen,Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

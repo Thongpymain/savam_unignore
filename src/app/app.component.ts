@@ -10,8 +10,8 @@ import { WelcomePage } from '../pages/welcome/welcome';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  // rootPage:any = TabsPage;
-  rootPage = WelcomePage;
+  rootPage:any = TabsPage;
+  // rootPage = WelcomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
