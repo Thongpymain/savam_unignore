@@ -4,7 +4,7 @@
             "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\4cffadccb8554b9ec0584968ad768462\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\61d677707fbba21d8fd4a664886d198e\\res\\values-et\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\d5d2b32d974704a42246982aa0a5ffd4\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\04ad6c5f3a0d448fb565884fed1dbda4\\res\\values-et\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\eb0c23a5802d3e4f754983539a3859c2\\res\\values-et\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3ee09aa8a007555a4ec4765e1cfd991e\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

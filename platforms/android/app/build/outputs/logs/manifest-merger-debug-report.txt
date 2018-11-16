@@ -1,36 +1,36 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\dc90f2b6956c9cb438d3c87d791fcd98\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:17:1-34:12
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\e7f7aef6db01153cedbf6a8f0681f1bc\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\c6b116a31a2c213c22a1ab0cddd62fb0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\944b8a58b386c0090e3ff8b529b3a1d6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\11b350a4d4dba6279e4a16c23bc8e694\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\4175cd6658342f97362ce3ffde4fdd0e\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\54393a1369d10aab512d2b89b27f885e\AndroidManifest.xml:2:1-11:12
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\b84358b7f35a174e0cdf266185375158\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\94e37e683c93344ed8452f966aff9b15\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\b2cb879e2d62b1de64867b58a1dc6d6a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8ec6e8743500bff6d102d47b856d4266\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e22e765181d878eac1b7baccafa1f0c2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\5b11631d381886674bb1676db6c5300e\AndroidManifest.xml:2:1-11:12
 MERGED from [:CordovaLib] D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\17bf8543537b62f103e4729e68c90680\AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-51:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
 		INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml
@@ -63,64 +63,64 @@ ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
 uses-permission#android.permission.INTERNET
 ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:5:5-49:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\dc90f2b6956c9cb438d3c87d791fcd98\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\dc90f2b6956c9cb438d3c87d791fcd98\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\e7f7aef6db01153cedbf6a8f0681f1bc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\e7f7aef6db01153cedbf6a8f0681f1bc\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\c6b116a31a2c213c22a1ab0cddd62fb0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\c6b116a31a2c213c22a1ab0cddd62fb0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\944b8a58b386c0090e3ff8b529b3a1d6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\944b8a58b386c0090e3ff8b529b3a1d6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\11b350a4d4dba6279e4a16c23bc8e694\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\11b350a4d4dba6279e4a16c23bc8e694\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\4175cd6658342f97362ce3ffde4fdd0e\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\4175cd6658342f97362ce3ffde4fdd0e\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\54393a1369d10aab512d2b89b27f885e\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\54393a1369d10aab512d2b89b27f885e\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\17bf8543537b62f103e4729e68c90680\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\17bf8543537b62f103e4729e68c90680\AndroidManifest.xml:22:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:24:5-28:19
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\b84358b7f35a174e0cdf266185375158\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\b84358b7f35a174e0cdf266185375158\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\94e37e683c93344ed8452f966aff9b15\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\94e37e683c93344ed8452f966aff9b15\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\b2cb879e2d62b1de64867b58a1dc6d6a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\b2cb879e2d62b1de64867b58a1dc6d6a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8ec6e8743500bff6d102d47b856d4266\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8ec6e8743500bff6d102d47b856d4266\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e22e765181d878eac1b7baccafa1f0c2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e22e765181d878eac1b7baccafa1f0c2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\5b11631d381886674bb1676db6c5300e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\5b11631d381886674bb1676db6c5300e\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:5:120-146
 	android:label
@@ -156,276 +156,288 @@ ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main
 	android:name
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
 meta-data#com.google.firebase.messaging.default_notification_icon
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:15:7-17:64
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:12:9-146
 	android:resource
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:17:9-61
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:12:91-143
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:12:20-90
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:20:7-22:49
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:13:9-132
 	android:resource
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:22:9-46
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:13:92-129
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:21:9-80
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:13:20-91
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:25:7-27:67
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:14:9-155
 	android:value
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:27:9-64
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:14:97-152
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:9-85
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:14:20-96
 service#io.ionic.starter.fcm.MyFirebaseMessagingService
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:7-34:17
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:15:9-19:19
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:16-62
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:15:18-64
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:9-33:25
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:16:13-18:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:32:11-72
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:17:17-78
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:32:19-69
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:17:25-75
 service#io.ionic.starter.fcm.MyFirebaseInstanceIDService
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:35:7-39:17
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:20:9-24:19
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:35:16-63
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:20:18-65
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:42:7-44:33
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:25:9-96
 	android:value
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:44:9-30
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:25:72-93
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:43:9-60
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:25:20-71
 meta-data#firebase_analytics_collection_enabled
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:45:7-47:33
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:9-97
 	android:value
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:47:9-30
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:73-94
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:46:9-61
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:20-72
 uses-sdk
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:50:5-74
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\dc90f2b6956c9cb438d3c87d791fcd98\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\dc90f2b6956c9cb438d3c87d791fcd98\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\e7f7aef6db01153cedbf6a8f0681f1bc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\e7f7aef6db01153cedbf6a8f0681f1bc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\c6b116a31a2c213c22a1ab0cddd62fb0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\c6b116a31a2c213c22a1ab0cddd62fb0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\944b8a58b386c0090e3ff8b529b3a1d6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\944b8a58b386c0090e3ff8b529b3a1d6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\11b350a4d4dba6279e4a16c23bc8e694\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\11b350a4d4dba6279e4a16c23bc8e694\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\4175cd6658342f97362ce3ffde4fdd0e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\4175cd6658342f97362ce3ffde4fdd0e\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\54393a1369d10aab512d2b89b27f885e\AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\54393a1369d10aab512d2b89b27f885e\AndroidManifest.xml:7:5-43
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\b84358b7f35a174e0cdf266185375158\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\b84358b7f35a174e0cdf266185375158\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\94e37e683c93344ed8452f966aff9b15\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\94e37e683c93344ed8452f966aff9b15\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\b2cb879e2d62b1de64867b58a1dc6d6a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\b2cb879e2d62b1de64867b58a1dc6d6a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8ec6e8743500bff6d102d47b856d4266\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\8ec6e8743500bff6d102d47b856d4266\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e22e765181d878eac1b7baccafa1f0c2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e22e765181d878eac1b7baccafa1f0c2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\5b11631d381886674bb1676db6c5300e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\5b11631d381886674bb1676db6c5300e\AndroidManifest.xml:7:5-43
 MERGED from [:CordovaLib] D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\17bf8543537b62f103e4729e68c90680\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\17bf8543537b62f103e4729e68c90680\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:50:42-71
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:42-71
 	android:minSdkVersion
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:50:15-41
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:15-41
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:22-76
+uses-feature#android.hardware.location.gps
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:5-66
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:19-63
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\4cffadccb8554b9ec0584968ad768462\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:29:13-82
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:22:5-79
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:23:22-76
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:23:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:24:22-65
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:29:9-35:19
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:31:13-37
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:27:18-89
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:27:18-89
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:28:13-30:85
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:28:13-30:85
 	android:value
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:30:17-82
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:30:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\b7338bcf647a1718ccc8a52d20dc4caf\AndroidManifest.xml:29:17-139
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:29:17-139
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:26:5-110
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:26:22-107
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:31:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:30:13-85
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\884e9e0bd2ca9f9ebfa1b7d9ea204f0f\AndroidManifest.xml:29:9-37:20
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\1aa2ad4b149a1a50181359cd206f08db\AndroidManifest.xml:29:9-37:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:36:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:38:13-69
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:35:13-100
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:35:13-100
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:40:17-79
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:40:25-76
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:44:9-47:40
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:44:9-47:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:46:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:45:13-84
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:50:13-35
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:52:13-69
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\f026ec5789bdcf191e5af5e74e9a9a49\AndroidManifest.xml:49:13-87
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\d47de99698fb9fdaeed0b7007258335f\AndroidManifest.xml:49:13-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:26:22-79
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:32:13-34:85
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:34:17-82
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:34:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:33:17-96
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:33:17-96
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:38:13-78
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:51:13-77
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\1a129f3869be8732d0b0643923f198bb\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\80e2b6c3c8b817906fbc2c814833362b\AndroidManifest.xml:54:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:10:9-14:39
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:10:9-14:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:12:13-72
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:13:13-37
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:13:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:14:13-36
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\c4be988b9faa7eabe9e124e4d15ff077\AndroidManifest.xml:11:13-77
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\98d73024a6cfcf0c30383da25f5dc5cc\AndroidManifest.xml:11:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d5251bd791e1a253c33fc16deb0f5032\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\eb0c23a5802d3e4f754983539a3859c2\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\d5d2b32d974704a42246982aa0a5ffd4\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\04ad6c5f3a0d448fb565884fed1dbda4\AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\63b3ce91ad3f6ca78e437e6403bddc30\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\fd3b86d1ca2640a9fe68815102c84419\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\55b5bf4294fcffc26840548f96c92944\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\6db873392b5d3d2dffab201e4d0d9d9d\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ce78541f5dc2a9108f702d567194e2a6\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\62e092d91134db4b35522d27f14e69cb\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\84a232b8d3146d7d78528ca4fe55f6dd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\65e149b3acc894d36de2c416330f9ca3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f879be98ac5be91ce4684992f4d50515\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3ee09aa8a007555a4ec4765e1cfd991e\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c7f18b09b2a4e117b33b75208e1b2c78\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7b0133b0de0d67558cc2c37b3d991f79\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:26:13-58

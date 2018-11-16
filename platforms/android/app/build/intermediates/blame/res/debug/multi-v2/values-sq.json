@@ -4,24 +4,7 @@
             "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\ce78541f5dc2a9108f702d567194e2a6\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "3052",
-                        "endColumns": "100",
-                        "endOffsets": "3148"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\4cffadccb8554b9ec0584968ad768462\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\61d677707fbba21d8fd4a664886d198e\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,24 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\d5d2b32d974704a42246982aa0a5ffd4\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3ee09aa8a007555a4ec4765e1cfd991e\\res\\values-sq\\values-sq.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "187",
-                        "endOffsets": "434"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "10",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "1324",
-                        "endColumns": "187",
-                        "endOffsets": "1507"
+                        "startOffsets": "3052",
+                        "endColumns": "100",
+                        "endOffsets": "3148"
                     }
                 },
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\d5251bd791e1a253c33fc16deb0f5032\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\eb0c23a5802d3e4f754983539a3859c2\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +52,23 @@
                         "startOffsets": "105,214,419,558,667,887,1023,1179,1512,1741,1851,2057,2197,2425,2639,2734,2831",
                         "endColumns": "108,204,138,108,219,135,155,144,228,109,205,139,227,213,94,96,110",
                         "endOffsets": "209,414,553,662,882,1018,1174,1319,1736,1846,2052,2192,2420,2634,2729,2826,2937"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\04ad6c5f3a0d448fb565884fed1dbda4\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1324",
+                        "endColumns": "187",
+                        "endOffsets": "1507"
                     }
                 }
             ]

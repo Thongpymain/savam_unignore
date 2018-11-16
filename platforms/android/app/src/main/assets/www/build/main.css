@@ -26024,6 +26024,12 @@ page-search .top-btn {
   font-size: 14px;
 }
 
+page-search #map {
+  width: 100%;
+  height: 100%;
+  position: fixed !important;
+}
+
 page-signin .toolbar-background {
   background: #fff;
 }
