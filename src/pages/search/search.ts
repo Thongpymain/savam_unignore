@@ -68,61 +68,68 @@ export class SearchPage {
 
   }
 
-  addMarker(){
+  addMarker() {
     let testlatLng = new google.maps.LatLng(18.809512, 98.980589);
     let testlatLng2 = new google.maps.LatLng(18.807985, 98.973513);
- 
+
     var locations = [
       ['Cronulla Beach', 18.8080992, 98.9773775],
       ['Manly Beach', 18.807985, 98.973513],
       ['Maroubra Beach', 18.809512, 98.980589]
     ];
-    
+
     var infowindow = new google.maps.InfoWindow();
-    
+
     var marker, i;
-    
-    for (i = 0; i < locations.length; i++) {  
+
+    for (i = 0; i < locations.length; i++) {
       marker = new google.maps.Marker({
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         map: this.map
       });
-    
-      let content =  this.createContentMarker(locations[i][0]);
 
-      google.maps.event.addListener(marker, 'click', (function(marker, i) {
-        return function() {
+      let content = this.createContentMarker(locations[i][0]);
+
+      google.maps.event.addListener(marker, 'click', (function (marker, i) {
+        return function () {
+
           infowindow.setContent(content);
+          google.maps.event.addListenerOnce(infowindow, 'domready', () => {
+            var goButtonElement = document.getElementById('goButton');
+            var goButtonValue = (<HTMLInputElement>goButtonElement).value;
+
+            goButtonElement.addEventListener('click', () => {
+              //TODO
+              console.log("Goto " + goButtonValue);
+            });
+          });
           infowindow.open(this.map, marker);
         }
       })(marker, i));
     }
   }
 
-  createContentMarker(name){
+  createContentMarker(name) {
     let distance = "0,4 km";
     let city = "ทองหล่อ";
 
-    let content = 
-    "<div>"+
-    "<div>"+
-                        "<img src=\"assets/imgs/03-News/pic-news3.png\" class=\"contentMarkerImage\">"+
-                   "</div>"+
-                  "<div class=\"contentTextMarker\">"
-                         +name+
-                  "</div>"+
-                  "<div style=\"display:table;width: 100%;\">"+
-                  "<ion-icon name=\"pin\" class=\"contentTableMarker\"></ion-icon>"+
-                  "<div class=\"contentTableMarker\">" + city + "</div>" +  
-                  "<div class=\"contentTableMarker\">" + distance + "</div>" +  
-                  "</div>"+
-                  "<div class=\"buttonInMarker\">"+
-                  "<button class=\"button\" onclick=\"goButtonClick()\">ดูต่อ</button>"+
-                  "</div>"+
-                  "</div>"; 
+    let content =
+      "<div>" +
+      "<div class=\"info-window\">" +
+      "<img src=\"assets/imgs/03-News/pic-news3.png\" class=\"contentMarkerImage\">" +
+      "</div>" +
+      "<div class=\"contentTextMarker\">"
+      + name +
+      "</div>" +
+      "<div style=\"display:table;width: 100%;\">" +
+      "<i class=\"fas fa-map-marker-alt\"></i>" +
+      "<div style=\"text-align: center;\">" + 
+      "<label style=\"margin-right: 10px;\">" + city + "</label>" + "<label>" + distance + "</label>" +"</div>" +
+      "</div>" +
+      "<div class=\"buttonInMarker\">" +
+      "<button id=\"goButton\" class=\"button\" value=\"" + name + "\">ดูต่อ</button>" +
+      "</div>" +
+      "</div>";
     return content;
-  }
-  goButtonClick() {
-    console.log('11111111111111111');
   }
 }

@@ -41,12 +41,16 @@ page-search {
         width: 100%;
         text-align: center;
         position: relative;
-        top: 40px;
+        top: 5px;
      }
      .button{
         width: 100px;
         height: 30px;
         background: orangered;
         border-radius: 12px;
+     }
+     .info-window img {
+         width: 100%;
+         height: 100%;
      }
 }
