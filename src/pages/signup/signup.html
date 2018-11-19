@@ -25,11 +25,11 @@
       style="margin-top: 65px;">
     </ion-col>
   </ion-row>
-  <ion-row><ion-input placeholder="ชื่อผู้ใช้"></ion-input></ion-row>
-  <ion-row><ion-input placeholder="อีเมล"></ion-input></ion-row>
-  <ion-row><ion-input placeholder="รหัสผ่าน"></ion-input></ion-row>
-  <ion-row><ion-input placeholder="ยืนยันรหัสผ่าน"></ion-input></ion-row>
-  <ion-row><button class="signup-btn">สร้างบัญชีผู้ใช้</button></ion-row>
+  <ion-row><ion-input placeholder="ชื่อผู้ใช้" [(ngModel)]='username'></ion-input></ion-row>
+  <ion-row><ion-input placeholder="อีเมล" [(ngModel)]='email'></ion-input></ion-row>
+  <ion-row><ion-input placeholder="รหัสผ่าน" [(ngModel)]='password'></ion-input></ion-row>
+  <ion-row><ion-input placeholder="ยืนยันรหัสผ่าน" [(ngModel)]='confirPassword'></ion-input></ion-row>
+  <ion-row><button class="signup-btn" (click)="getRegisterData()">สร้างบัญชีผู้ใช้</button></ion-row>
   <ion-row text-center>
     <label class="condition">By signing up, you agree to the <a>Savam Terms of Service</a> and <a>Privacy Policy</a></label>
   </ion-row>
