@@ -100,7 +100,7 @@ export class SearchPage {
 
             goButtonElement.addEventListener('click', () => {
               //TODO
-              console.log("Goto " + goButtonValue);
+              alert("Goto " + goButtonValue);
             });
           });
           infowindow.open(this.map, marker);
