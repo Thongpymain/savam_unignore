@@ -122,9 +122,8 @@ export class SearchPage {
       + name +
       "</div>" +
       "<div style=\"display:table;width: 100%;\">" +
-      "<i class=\"fas fa-map-marker-alt\"></i>" +
-      "<div style=\"text-align: center;\">" + 
-      "<label style=\"margin-right: 10px;\">" + city + "</label>" + "<label>" + distance + "</label>" +"</div>" +
+      "<div style=\"text-align: center;\">" + "<img src=\"assets/icon/mappin.png\" style=\"width: 14px;\">" +
+      "<label style=\"margin-right: 10px; margin-left: 3px;\">" + city + "</label>" + "<label>" + distance + "</label>" +"</div>" +
       "</div>" +
       "<div class=\"buttonInMarker\">" +
       "<button id=\"goButton\" class=\"button\" value=\"" + name + "\">ดูต่อ</button>" +
