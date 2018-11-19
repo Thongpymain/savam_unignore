@@ -54,11 +54,13 @@ export class SignupPage {
                 } else {
                   if ((typeof this.password !== 'undefined') && (typeof this.confirmPassword !== 'undefined')) {
                     if (this.password == this.confirmPassword) {
-                      var addUserAPIUrl = this.savamAppURL + "AddUser/" + this.username + "/" + this.password + "/null/" + this.email + "/null/null";
-                      this.http.get(emailAPIUrl).subscribe(isInsertUserSuccess => {
+                      var addUserAPIUrl = this.savamAppURL + "AddUser/" + this.username + "/" + this.password + "/null/" + this.email + "/null/2000-01-01";
+                      this.http.get(addUserAPIUrl).subscribe(isInsertUserSuccess => {
                         if (isInsertUserSuccess == 1) {
                           //TODO
                           alert("Insert Success");
+                        } else {
+                          alert("Insert Not Success");
                         }
                       }, err => {
                         console.log(err);
