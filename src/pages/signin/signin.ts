@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { HttpClient } from '@angular/common/http';
 import { ForgotPasswordPage } from '../forgot-password/forgot-password';
 import { SignupPage } from '../signup/signup';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the SigninPage page.
@@ -18,7 +19,10 @@ import { SignupPage } from '../signup/signup';
 })
 export class SigninPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  email: string;
+  password: string;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
   }
 
   ionViewDidLoad() {
@@ -33,4 +37,20 @@ export class SigninPage {
     this.navCtrl.push(SignupPage);
   }
 
+  loginButton() {
+    if (typeof this.email !== 'undefined' && typeof this.password !== 'undefined') {
+      var loginApiUrl = "http://savamapp.com/API/LoginCheck/" + this.email + "/" + this.password;
+      return new Promise(resolve => {
+        this.http.get(loginApiUrl).subscribe(isLoginSuccess => {
+          if (isLoginSuccess == 0) {
+            alert("Email or password invalid");
+          } else {
+            this.navCtrl.push(HomePage);
+          }
+        }, err => {
+          console.log(err);
+        });
+      });
+    }
+  }
 }

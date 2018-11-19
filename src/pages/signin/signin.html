@@ -15,8 +15,8 @@
 
 <ion-content padding>
   <ion-row text-left><div class="head-txt">ลงชื่อเข้าใช้</div></ion-row>
-  <ion-row><ion-input placeholder="อีเมล"></ion-input></ion-row>
-  <ion-row><ion-input placeholder="รหัสผ่าน"></ion-input></ion-row>
+  <ion-row><ion-input placeholder="อีเมล" [(ngModel)]='email'></ion-input></ion-row>
+  <ion-row><ion-input placeholder="รหัสผ่าน" [(ngModel)]='password'></ion-input></ion-row>
   <ion-row>
     <ion-col col-6 text-left>
       <button class="link" (click)="signup()">สร้างบัญชีผู้ใช้</button>
@@ -25,5 +25,5 @@
         <button class="link" (click)="forgot()">ลืมรหัสผ่าน?</button>
     </ion-col>
   </ion-row>
-  <ion-row><button class="signin-btn">ลงชื่อเข้าใช้</button></ion-row>
+  <ion-row><button class="signin-btn" (click)="loginButton()">ลงชื่อเข้าใช้</button></ion-row>
 </ion-content>

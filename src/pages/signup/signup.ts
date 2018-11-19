@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { getNonHydratedSegmentIfLinkAndUrlMatch } from 'ionic-angular/umd/navigation/url-serializer';
+import { SigninPage } from '../signin/signin';
 // import {Md5} from 'ts-md5/dist/md5';
 
 
@@ -59,6 +60,7 @@ export class SignupPage {
                         if (isInsertUserSuccess == 1) {
                           //TODO
                           alert("Insert Success");
+                          this.navCtrl.push(SigninPage);
                         } else {
                           alert("Insert Not Success");
                         }
