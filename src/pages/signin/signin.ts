@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { ForgotPasswordPage } from '../forgot-password/forgot-password';
 import { SignupPage } from '../signup/signup';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the SigninPage page.
@@ -44,7 +45,7 @@ export class SigninPage {
           if (isLoginSuccess == 0) {
             alert("Email or password invalid");
           } else {
-            alert("login success");
+            this.navCtrl.push(HomePage);
           }
         }, err => {
           console.log(err);
