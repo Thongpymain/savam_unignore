@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { ProfileConfigPage } from '../profile-config/profile-config';
 import { ContactusPage } from '../contactus/contactus';
 import { Modal, ModalController, ModalOptions } from 'ionic-angular';
+import { WelcomePage } from '../welcome/welcome';
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html'
@@ -17,5 +18,9 @@ export class ContactPage {
   }
   ContactUs() {
     this.navCtrl.push(ContactusPage);
+  }
+
+  signoutButton() {
+    this.navCtrl.setRoot(WelcomePage);
   }
 }
