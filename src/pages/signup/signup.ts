@@ -48,42 +48,50 @@ export class SignupPage {
           } else {
             if (typeof this.email !== 'undefined') {
               var emailAPIUrl = this.savamAppURL + "CheckEmail/" + this.email;
-              this.http.get(emailAPIUrl).subscribe(isEmailAlreadyExits => {
-                if (isEmailAlreadyExits == 0) {
-                  //TODO
-                  alert("Email is already exits");
-                } else {
-                  if ((typeof this.password !== 'undefined') && (typeof this.confirmPassword !== 'undefined')) {
-                    if (this.password == this.confirmPassword) {
-                      var addUserAPIUrl = this.savamAppURL + "AddUser/" + this.username + "/" + this.password + "/null/" + this.email + "/null/2000-01-01";
-                      this.http.get(addUserAPIUrl).subscribe(isInsertUserSuccess => {
-                        if (isInsertUserSuccess == 1) {
-                          //TODO
-                          alert("Insert Success");
-                          this.navCtrl.push(SigninPage);
-                        } else {
-                          alert("Insert Not Success");
-                        }
-                      }, err => {
-                        console.log(err);
-                      });
-                    } else {
-                      //TODO
-                      alert("Password not equal");
+
+              if(this.validateEmail(this.email)) {
+                this.http.get(emailAPIUrl).subscribe(isEmailAlreadyExits => {
+                  if (isEmailAlreadyExits == 0) {
+                    //TODO
+                    alert("Email is already exits");
+                  } else {
+                    if ((typeof this.password !== 'undefined') && (typeof this.confirmPassword !== 'undefined')) {
+                      if (this.password == this.confirmPassword) {
+                        var addUserAPIUrl = this.savamAppURL + "AddUser/" + this.username + "/" + this.password + "/null/" + this.email + "/null/2000-01-01";
+                        this.http.get(addUserAPIUrl).subscribe(isInsertUserSuccess => {
+                          if (isInsertUserSuccess == 1) {
+                            //TODO
+                            alert("Insert Success");
+                            this.navCtrl.push(SigninPage);
+                          } else {
+                            alert("Insert Not Success");
+                          }
+                        }, err => {
+                          console.log(err);
+                        });
+                      } else {
+                        //TODO
+                        alert("Password not equal");
+                      }
                     }
                   }
-                }
-              }, err => {
-                console.log(err);
-              });
-
+                }, err => {
+                  console.log(err);
+                });
+              } else {
+                alert("Email isn't valid");
+              }
             }
           }
-
         }, err => {
           console.log(err);
         });
       });
     }
+  }
+
+  validateEmail(email) {
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
   }
 }
