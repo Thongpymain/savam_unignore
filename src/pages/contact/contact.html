@@ -3,34 +3,53 @@
     <ion-title>โปรไฟล์</ion-title>
   </ion-navbar>
 </ion-header>
-
+  
 <ion-content class="bg-app">
   <div class="card">
-  <ion-row>
-    <img src="assets/imgs/04-Profile/20150723170640.png"
-    style="margin: auto; margin-top: 40px; margin-bottom: 35px;">
+  <ion-row class="profile-img">
+    <img src="assets/imgs/04-Profile/20150723170640.png">
   </ion-row>
   <ion-row>
     <ul>
       <li>        
         <button class="btn-setting" (click)="ProfileConfig()">
-          <img src="assets/imgs/04-Profile/Settings-2.png">ตั้งค่าโปรไฟล์ของฉัน
-          <ion-icon name="arrow-forward" style="float: right;"></ion-icon></button>
+          <ion-row>
+            <ion-col col-1 text-center>
+              <div class="icon-img"><img src="assets/imgs/04-Profile/Settings-2.png"></div>
+            </ion-col>
+            <ion-col col-10 text-left><h1>ตั้งค่าโปรไฟล์ของฉัน</h1></ion-col>
+            <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
+          </ion-row>
+        </button>
       </li><hr>
       <li>
         <button class="btn-setting">
-          <img src="assets/imgs/04-Profile/Notification.png">การแจ้งเตือน
-          <ion-toggle checked="false" style="float: right;"></ion-toggle></button>
+          <ion-row>
+            <ion-col col-1 text-center>
+              <div class="icon-img"><img src="assets/imgs/04-Profile/Notification.png"></div>
+            </ion-col>
+            <ion-col col-10 text-left><h1>การแจ้งเตือน</h1></ion-col>
+            <ion-col col-1 text-center>
+              <ion-toggle checked="false" style="float: right;"></ion-toggle>
+            </ion-col>
+          </ion-row>
+        </button>
       </li><hr>
       <li>
         <button class="btn-setting" (click)="ContactUs()">
-          <img src="assets/imgs/04-Profile/mobile.png">ติดต่อเรา
-          <ion-icon name="arrow-forward" style="float: right;"></ion-icon></button>
+          <ion-row>
+            <ion-col col-1 text-center>
+              <div class="icon-img"><img src="assets/imgs/04-Profile/mobile.png"></div>
+            </ion-col>
+            <ion-col col-10 text-left><h1>ติดต่อเรา</h1></ion-col>
+            <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
+          </ion-row>
+        </button>
       </li><hr>
     </ul>
   </ion-row>
   </div>
-  <ion-row style="margin-top: 40px;">
+  <ion-row style="margin-top: 40px; margin-bottom: 40px;">
     <button class="btn-signout">ออกจากระบบ</button>
   </ion-row>
 </ion-content>

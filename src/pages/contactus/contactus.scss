@@ -1,4 +1,33 @@
 page-contactus {
+    @media only screen and (min-width: 768px) {
+        .head-text {
+            font-size: 40px !important;
+        }
+        .icon-img img {
+            width: 50%;
+        }
+        p {
+            font-size: 21px;
+        }
+        label {
+            font-size: 21px;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        .head-text {
+            font-size: 70px !important;
+        }
+        .icon-img img {
+            width: 60% !important;
+            margin-left: 10px;
+        }
+        p {
+            font-size: 32px !important;
+        }
+        label {
+            font-size: 32px !important;
+        }
+    }
     .btn-setting {
         padding: 5px 10px;
         font-size: 18px;
