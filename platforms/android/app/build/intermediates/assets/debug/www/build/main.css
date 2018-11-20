@@ -25870,11 +25870,44 @@ page-forgot-password .send-email {
   margin-top: 0px;
 }
 
+@media only screen and (max-width: 320px) {
+  page-home .btn-home p {
+    font-size: 12px;
+  }
+  page-home .head-text {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  page-home .btn-home p {
+    font-size: 21px;
+  }
+  page-home .head-text {
+    font-size: 36px !important;
+  }
+  page-home .view-text {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  page-home .btn-home p {
+    font-size: 30px;
+  }
+  page-home .head-text {
+    font-size: 50px !important;
+  }
+  page-home .view-text {
+    font-size: 32px;
+  }
+}
+
 page-home .bg-search {
   background: #F26618;
   text-align: center;
   height: 60px;
-  padding: 10px 10px;
+  padding: 3px 10px;
 }
 
 page-home .searchTab {
@@ -25900,6 +25933,7 @@ page-home .head-text {
   font-size: 24px;
   font-weight: bold;
   margin-left: 10px;
+  margin-top: 5px;
 }
 
 page-home .view-text {
@@ -26062,6 +26096,10 @@ page-search .button {
 page-search .info-window img {
   width: 100%;
   height: 100%;
+}
+
+page-search .back-button.show-back-button {
+  display: none;
 }
 
 page-signin .toolbar-background {

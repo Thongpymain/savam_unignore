@@ -1,9 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\34516ff7b21e34e5c45a8f11c87804e1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\ed32c48fce8a36913c079fb9bd2bd31f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\38d79abb562d503773811eef4ca4cdaa\AndroidManifest.xml:17:1-34:12
@@ -28,9 +31,9 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\poomNBWin10\.gradle\cache
 MERGED from [:CordovaLib] D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\a8d7f87b13185f85bd7b329fa16ca162\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
 		INJECTED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml
@@ -74,7 +77,13 @@ MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\poomNBWin10\.grad
 	android:name
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:5:5-28:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\34516ff7b21e34e5c45a8f11c87804e1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\34516ff7b21e34e5c45a8f11c87804e1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\ed32c48fce8a36913c079fb9bd2bd31f\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\ed32c48fce8a36913c079fb9bd2bd31f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:7:5-20
@@ -199,8 +208,22 @@ ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:73-94
 	android:name
 		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:26:20-72
+activity#com.synconset.MultiImageChooserActivity
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:27:9-160
+	android:label
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:27:19-57
+	android:theme
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:27:113-157
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:27:58-112
 uses-sdk
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:5-74
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\34516ff7b21e34e5c45a8f11c87804e1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\34516ff7b21e34e5c45a8f11c87804e1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\ed32c48fce8a36913c079fb9bd2bd31f\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\ed32c48fce8a36913c079fb9bd2bd31f\AndroidManifest.xml:5:5-43
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\40f6107451bfec0381031b03a8770ae6\AndroidManifest.xml:5:5-44
@@ -250,23 +273,43 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\75485fc774e191f1ec3e0a6d87e70af5\AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\5e37e1892008ce1aae2373b4b86c759a\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\31a0b8cfe395f78e2a9fdb9c89d5c919\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:42-71
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:42-71
 	android:minSdkVersion
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:28:15-41
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:15-41
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:5-81
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:5-81
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:29:22-78
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:5-79
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:5-79
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:30:22-76
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:32:5-80
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:32:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:33:22-78
+uses-permission#android.permission.CAMERA
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:34:5-65
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:34:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:35:5-60
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:35:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:36:5-70
+	android:name
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:36:19-67
 uses-feature#android.hardware.location.gps
-ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:5-66
+ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:37:5-66
 	android:name
-		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:31:19-63
+		ADDED from D:\PymainPJ\savam_mobile_app_gitignore\platforms\android\app\src\main\AndroidManifest.xml:37:19-63
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\poomNBWin10\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\61d677707fbba21d8fd4a664886d198e\AndroidManifest.xml:28:9-34:19
 	android:exported

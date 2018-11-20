@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { analyzeAndValidateNgModules } from '@angular/compiler';
 import { getNonHydratedSegmentIfLinkAndUrlMatch } from 'ionic-angular/umd/navigation/url-serializer';
 import { SigninPage } from '../signin/signin';
+import {ImagePicker} from  '@ionic-native/image-picker';
 // import {Md5} from 'ts-md5/dist/md5';
 
 
@@ -29,7 +30,7 @@ export class SignupPage {
   savamAppURL = "http://savamapp.com/API/";
   public result: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient, public imagePicker:ImagePicker) {
   }
 
   ionViewDidLoad() {
@@ -93,5 +94,17 @@ export class SignupPage {
   validateEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
+  }
+
+  getPictures(){
+    this.imagePicker.getPictures({
+    }).then( results =>{
+      console.log(results);
+      for(let i=0; i < results.length;i++){
+        console.log('Image URI: ' + results[i]);
+      };
+    }, (err) => { 
+      
+    });
   }
 }
