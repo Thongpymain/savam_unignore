@@ -1,9 +1,39 @@
 page-home {
+    @media only screen and (max-width: 320px) {
+        .btn-home p{
+            font-size: 12px;
+        }
+        .head-text {
+            font-size: 20px !important;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        .btn-home p{
+            font-size: 21px;
+        }
+        .head-text {
+            font-size: 36px !important;
+        }
+        .view-text {
+            font-size: 24px;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        .btn-home p{
+            font-size: 30px;
+        }
+        .head-text {
+            font-size: 50px !important;
+        }
+        .view-text {
+            font-size: 32px;
+        }
+    }
     .bg-search{
         background: #F26618;
         text-align: center;
         height: 60px;
-        padding: 10px 10px;
+        padding: 3px 10px;
     }
     .searchTab{
         background: #fff;
@@ -25,6 +55,7 @@ page-home {
         font-size: 24px;
         font-weight: bold;
         margin-left: 10px;
+        margin-top: 5px;
     }
     .view-text {
         margin-right: 10px;
