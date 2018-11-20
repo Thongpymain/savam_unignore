@@ -20,6 +20,8 @@ export class ProfileConfigPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProfileConfigPage');
+
+    // http://savamapp.com/API/UserDetail/{str_username}
   }
 
 }
