@@ -62,10 +62,10 @@ export class SignupPage {
                         this.http.get(addUserAPIUrl).subscribe(isInsertUserSuccess => {
                           if (isInsertUserSuccess == 1) {
                             //TODO
-                            alert("Insert Success");
+                            alert("Register Success");
                             this.navCtrl.push(SigninPage);
                           } else {
-                            alert("Insert Not Success");
+                            alert("Register isn't Success");
                           }
                         }, err => {
                           console.log(err);
@@ -104,7 +104,7 @@ export class SignupPage {
         console.log('Image URI: ' + results[i]);
       };
     }, (err) => { 
-      
+
     });
   }
 }
