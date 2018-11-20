@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, Config  } from 'ionic-angular';
 import { ProfileConfigPage } from '../profile-config/profile-config';
 import { ContactusPage } from '../contactus/contactus';
 import { Modal, ModalController, ModalOptions } from 'ionic-angular';
@@ -10,7 +10,7 @@ import { WelcomePage } from '../welcome/welcome';
 })
 export class ContactPage {
 
-  constructor(public navCtrl: NavController,public modalCtrl: ModalController) {
+  constructor(public navCtrl: NavController,public modalCtrl: ModalController, public config: Config) {
 
   }
   ProfileConfig() {
@@ -21,6 +21,8 @@ export class ContactPage {
   }
 
   signoutButton() {
-    this.navCtrl.setRoot(WelcomePage);
+    //TODO remove user in local storage
+    this.config.set('tabsHideOnSubPages', false)
+    this.navCtrl.push(WelcomePage);
   }
 }

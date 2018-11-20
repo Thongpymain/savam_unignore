@@ -46,7 +46,7 @@ import { ImagePicker } from '@ionic-native/image-picker';
   imports: [
     BrowserModule,
     HttpClientModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,{tabsHideOnSubPages : true}),
     IonicStorageModule.forRoot({
       name: 'savamLocalDB',
          driverOrder: ['indexeddb', 'sqlite', 'websql']
