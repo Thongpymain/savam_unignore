@@ -1,4 +1,68 @@
 page-profile-config {
+    @media only screen and (max-width: 320px) {
+        h1 {
+            font-size: 15px !important;
+            margin-top: 0px;
+        }
+        p {
+            font-size: 15px !important;
+        }
+        ion-icon {
+            font-size: 15px !important;
+        }
+    }
+    @media only screen and (min-width: 768px) {
+        h1 {
+            font-size: 21px !important;
+        }
+        p {
+            font-size: 21px !important;
+        }
+        ion-icon {
+            font-size: 21px !important;
+        }
+        .profile-img img {
+            margin-right: -120px !important;
+            width: 60%;
+            border-radius: 50%;
+        }
+        .camera {
+            padding: 10px !important;
+            border-radius: 50% !important;
+            margin-top: 230px !important;
+            margin-left: 25px !important;
+            font-size: 40px;
+        }
+        .icon-img img {
+            width: 50%;
+        }
+    }
+    @media only screen and (min-width: 1024px) {
+        h1 {
+            font-size: 32px !important;
+        }
+        p {
+            font-size: 32px !important;
+        }
+        ion-icon {
+            font-size: 32px !important;
+        }
+        .profile-img img {
+            margin-right: -120px !important;
+            width: 60%;
+            border-radius: 50%;
+        }
+        .camera {
+            padding: 10px !important;
+            border-radius: 50% !important;
+            margin-top: 275px !important;
+            margin-left: 15px !important;
+            font-size: 40px !important;
+        }
+        .icon-img img {
+            width: 50%;
+        }
+    }
     .btn-setting {
         font-size: 18px;
         width: 100%;
@@ -24,10 +88,19 @@ page-profile-config {
         width: 100%;
         margin-right: 10px;
     }
+    h1 {
+        font-size: 18px;
+        margin-top: 0px;
+    }
     p {
         color: #999;
         margin-bottom: 0;
         margin-top: 0;
+        font-size: 18px;
+    }
+    ion-icon {
+        font-size: 18px;
+        color: #999;
     }
     .toggle-ios.toggle-checked .toggle-icon {
         background-color: #F26618;
@@ -41,7 +114,10 @@ page-profile-config {
         margin-top: 105px;
         margin-left: 0px;
     }
-    ion-icon {
-        color: #999;
+    .profile-img img {
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        margin-right: -40px;
     }
 }
