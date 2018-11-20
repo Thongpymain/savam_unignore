@@ -4,6 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { ForgotPasswordPage } from '../forgot-password/forgot-password';
 import { SignupPage } from '../signup/signup';
 import { HomePage } from '../home/home';
+import { TabsPage } from '../tabs/tabs';
+import { Storage } from '@ionic/storage';
 
 /**
  * Generated class for the SigninPage page.
@@ -22,7 +24,7 @@ export class SigninPage {
   email: string;
   password: string;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient, public storage: Storage) {
   }
 
   ionViewDidLoad() {
@@ -45,7 +47,10 @@ export class SigninPage {
           if (isLoginSuccess == 0) {
             alert("Email or password invalid");
           } else {
-            this.navCtrl.push(HomePage);
+            //Save email and password to local storage
+            this.storage.set("email", this.email);
+            this.storage.set("password", this.password);
+            this.navCtrl.setRoot(TabsPage);
           }
         }, err => {
           console.log(err);

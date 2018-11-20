@@ -26030,6 +26030,40 @@ page-search #map {
   position: fixed !important;
 }
 
+page-search .contentMarkerImage {
+  margin: auto;
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+page-search .contentTableMarker {
+  display: table-cell;
+}
+
+page-search .contentTextMarker {
+  text-align: center;
+}
+
+page-search .buttonInMarker {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+page-search .button {
+  width: 100px;
+  height: 30px;
+  background: orangered;
+  border-radius: 12px;
+}
+
+page-search .info-window img {
+  width: 100%;
+  height: 100%;
+}
+
 page-signin .toolbar-background {
   background: #fff;
 }

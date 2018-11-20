@@ -841,18 +841,51 @@ var SearchPage = /** @class */ (function () {
         ];
         var infowindow = new google.maps.InfoWindow();
         var marker, i;
-        for (i = 0; i < locations.length; i++) {
+        var _loop_1 = function () {
             marker = new google.maps.Marker({
                 position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                map: this.map
+                map: this_1.map
             });
+            var content = this_1.createContentMarker(locations[i][0]);
             google.maps.event.addListener(marker, 'click', (function (marker, i) {
                 return function () {
-                    infowindow.setContent(locations[i][0]);
+                    infowindow.setContent(content);
+                    google.maps.event.addListenerOnce(infowindow, 'domready', function () {
+                        var goButtonElement = document.getElementById('goButton');
+                        var goButtonValue = goButtonElement.value;
+                        goButtonElement.addEventListener('click', function () {
+                            //TODO
+                            alert("Goto " + goButtonValue);
+                        });
+                    });
                     infowindow.open(this.map, marker);
                 };
             })(marker, i));
+        };
+        var this_1 = this;
+        for (i = 0; i < locations.length; i++) {
+            _loop_1();
         }
+    };
+    SearchPage.prototype.createContentMarker = function (name) {
+        var distance = "0,4 km";
+        var city = "ทองหล่อ";
+        var content = "<div>" +
+            "<div class=\"info-window\">" +
+            "<img src=\"assets/imgs/03-News/pic-news3.png\" class=\"contentMarkerImage\">" +
+            "</div>" +
+            "<div class=\"contentTextMarker\">"
+            + name +
+            "</div>" +
+            "<div style=\"display:table;width: 100%;\">" +
+            "<div style=\"text-align: center;\">" + "<img src=\"assets/icon/mappin.png\" style=\"width: 14px;\">" +
+            "<label style=\"margin-right: 10px; margin-left: 3px;\">" + city + "</label>" + "<label>" + distance + "</label>" + "</div>" +
+            "</div>" +
+            "<div class=\"buttonInMarker\">" +
+            "<button id=\"goButton\" class=\"button\" value=\"" + name + "\">ดูต่อ</button>" +
+            "</div>" +
+            "</div>";
+        return content;
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('map'),
