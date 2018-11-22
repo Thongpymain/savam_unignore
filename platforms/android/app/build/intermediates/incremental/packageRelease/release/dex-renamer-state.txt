@@ -1,0 +1,4 @@
+#Fri Nov 23 00:42:13 ICT 2018
+base.0=D\:\\PymainPJ\\savam_mobile_app_gitignore23\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

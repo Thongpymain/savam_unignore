@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27,7 +27,7 @@ var NewsDatailsPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__news_datails__["a" /* NewsDatailsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__news_datails__["a" /* NewsDatailsPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__news_datails__["a" /* NewsDatailsPage */]),
             ],
         })
     ], NewsDatailsPageModule);
@@ -72,9 +72,9 @@ var NewsDatailsPage = /** @class */ (function () {
     };
     NewsDatailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-news-datails',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news-datails\news-datails.html"*/'<!--\n\n  Generated template for the NewsDatailsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>news-datails</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore\src\pages\news-datails\news-datails.html"*/,
+            selector: 'page-news-datails',template:/*ion-inline-start:"D:\PymainPJ\savam_mobile_app_gitignore23\src\pages\news-datails\news-datails.html"*/'<!--\n\n  Generated template for the NewsDatailsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>news-datails</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\PymainPJ\savam_mobile_app_gitignore23\src\pages\news-datails\news-datails.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], NewsDatailsPage);
     return NewsDatailsPage;
 }());

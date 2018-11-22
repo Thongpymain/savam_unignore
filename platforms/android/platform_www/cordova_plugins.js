@@ -9,6 +9,20 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-plugin-geolocation.geolocation",
+    "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
+    "pluginId": "cordova-plugin-geolocation",
+    "clobbers": [
+      "navigator.geolocation"
+    ]
+  },
+  {
+    "id": "cordova-plugin-geolocation.PositionError",
+    "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+    "pluginId": "cordova-plugin-geolocation",
+    "runs": true
+  },
+  {
     "id": "cordova-plugin-ionic-keyboard.keyboard",
     "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
     "pluginId": "cordova-plugin-ionic-keyboard",
@@ -41,18 +55,12 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-geolocation.geolocation",
-    "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
-    "pluginId": "cordova-plugin-geolocation",
+    "id": "cordova-plugin-telerik-imagepicker.ImagePicker",
+    "file": "plugins/cordova-plugin-telerik-imagepicker/www/imagepicker.js",
+    "pluginId": "cordova-plugin-telerik-imagepicker",
     "clobbers": [
-      "navigator.geolocation"
+      "plugins.imagePicker"
     ]
-  },
-  {
-    "id": "cordova-plugin-geolocation.PositionError",
-    "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
-    "pluginId": "cordova-plugin-geolocation",
-    "runs": true
   },
   {
     "id": "cordova-sqlite-storage.SQLitePlugin",
@@ -61,28 +69,20 @@ module.exports = [
     "clobbers": [
       "SQLitePlugin"
     ]
-  },
-  {
-    "id": "cordova-plugin-telerik-imagepicker.ImagePicker",
-    "file": "plugins/cordova-plugin-telerik-imagepicker/www/imagepicker.js",
-    "pluginId": "cordova-plugin-telerik-imagepicker",
-    "clobbers": [
-      "plugins.imagePicker"
-    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
   "cordova-plugin-device": "2.0.2",
+  "cordova-plugin-geolocation": "4.0.1",
   "cordova-plugin-ionic-keyboard": "2.1.3",
   "cordova-plugin-ionic-webview": "2.2.3",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-statusbar": "2.4.2",
+  "cordova-plugin-telerik-imagepicker": "2.2.2",
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-geolocation": "4.0.1",
-  "cordova-sqlite-storage": "2.5.1",
-  "cordova-plugin-telerik-imagepicker": "2.2.2"
+  "cordova-sqlite-storage": "2.5.1"
 };
 // BOTTOM OF METADATA
 });

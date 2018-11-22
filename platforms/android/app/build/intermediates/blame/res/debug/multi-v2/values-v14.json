@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "D:\\PymainPJ\\savam_mobile_app_gitignore23\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\31a0b8cfe395f78e2a9fdb9c89d5c919\\res\\values-v14\\values-v14.xml",
+                    "source": "C:\\Users\\poomNBWin10\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\53498cc76150bd21a8f0463a04b34b62\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

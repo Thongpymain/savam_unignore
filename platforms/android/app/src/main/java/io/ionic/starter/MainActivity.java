@@ -19,72 +19,23 @@
 
 package io.ionic.starter;
 
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.messaging.FirebaseMessaging;
-
 import org.apache.cordova.*;
-
-
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
-
-import javax.net.ssl.HttpsURLConnection;
-
-import io.ionic.starter.fcm.MyFirebaseInstanceIDService;
 
 public class MainActivity extends CordovaActivity
 {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-      super.onCreate(savedInstanceState);
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
 
-      // enable Cordova apps to be started in the background
-      Bundle extras = getIntent().getExtras();
-      if (extras != null && extras.getBoolean("cdvStartInBackground", false)) {
-        moveTaskToBack(true);
-      }
+        // enable Cordova apps to be started in the background
+        Bundle extras = getIntent().getExtras();
+        if (extras != null && extras.getBoolean("cdvStartInBackground", false)) {
+            moveTaskToBack(true);
+        }
 
-      // Set by <content src="index.html" /> in config.xml
-      loadUrl(launchUrl);
-
-      String refreshedToken = FirebaseInstanceId.getInstance().getToken();
-      Log.i("Response","refreshedToken : " + refreshedToken);
-      sendRegistrationToServer(refreshedToken);
+        // Set by <content src="index.html" /> in config.xml
+        loadUrl(launchUrl);
     }
-  public void sendRegistrationToServer(String token) {
-    RequestQueue ExampleRequestQueue = Volley.newRequestQueue(this);
-    String url = "http://savamapp.com/API/GetToken/" + token;
-    StringRequest ExampleStringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
-      @Override
-      public void onResponse(String response) {
-      }
-    }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
-      @Override
-      public void onErrorResponse(VolleyError error) {
-        LOG.d("Error Response", error.getMessage());
-      }
-    });
-
-    ExampleRequestQueue.add(ExampleStringRequest);
-  }
 }
