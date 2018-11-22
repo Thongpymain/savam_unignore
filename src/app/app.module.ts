@@ -25,6 +25,8 @@ import { Geolocation } from '@ionic-native/geolocation';
 import { HttpClientModule } from '@angular/common/http';
 import { IonicStorageModule } from '@ionic/storage';
 import { ImagePicker } from '@ionic-native/image-picker';
+import { Base64 } from '@ionic-native/base64';
+import { Camera } from '@ionic-native/camera';
 
 @NgModule({
   declarations: [
@@ -73,6 +75,8 @@ import { ImagePicker } from '@ionic-native/image-picker';
     StatusBar,
     SplashScreen,Geolocation,
     ImagePicker,
+    Base64,
+    Camera,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
