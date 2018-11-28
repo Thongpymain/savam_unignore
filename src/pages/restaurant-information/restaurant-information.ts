@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
 import { Platform } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 import { SearchPage } from '../search/search';
+import { HttpClient } from '@angular/common/http';
 
 
 /**
@@ -32,8 +33,10 @@ export class RestaurantInformationPage {
   openTime:any
   restaurant_latitude:any;
   restaurant_longitude:any;
+  id_restaurant: any;
+  listDishDetailLists:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public platform: Platform, public geolocation: Geolocation, public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public platform: Platform, public geolocation: Geolocation, public viewCtrl: ViewController, public http: HttpClient) {
     this.restaurant_name = navParams.get('restaurant_name');
     this.district_name = navParams.get('district_name');
     this.telephone = navParams.get('telephone');
@@ -43,6 +46,7 @@ export class RestaurantInformationPage {
     this.openTime = "เปิด " + this.open_time + " - " + this.close_time;
     this.restaurant_latitude = navParams.get('restaurant_latitude');
     this.restaurant_longitude = navParams.get('restaurant_longitude');
+    this.id_restaurant = navParams.get('id_restaurant');
   }
 
   backButton() {
@@ -52,6 +56,7 @@ export class RestaurantInformationPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RestaurantInformationPage');
     this.loadMap();
+    this.getListDishDetail(this.id_restaurant);   
   }
 
   loadMap() {
@@ -77,5 +82,27 @@ export class RestaurantInformationPage {
         position: new google.maps.LatLng(latitude, longitude),
         map: this.map
       });
+  }
+
+  getListDishDetail(id_restaurant) {
+   var listDishDetailApiUrl = "http://savamapp.com/API/ListDishDetail/" + id_restaurant;
+   var foddImageUrl = "http://savamapp.com/storage/dishdetail/";
+
+   this.http.get(listDishDetailApiUrl).subscribe(data => {
+    this.listDishDetailLists = data;
+    this.listDishDetailLists = this.listDishDetailLists.data;
+    
+
+    var resterantLocationLists = [];
+    for (var k = 0; k < this.listDishDetailLists.length; k++) {
+      var resterantDatas = [];
+      resterantDatas.push(this.listDishDetailLists[k].product_name);
+      resterantDatas.push(this.listDishDetailLists[k].product_price);
+      resterantDatas.push(foddImageUrl+this.listDishDetailLists[k].id_product+".jpg");
+      resterantLocationLists.push(resterantDatas);
+    }
+
+    this.listDishDetailLists  = resterantLocationLists;
+  });
   }
 }
