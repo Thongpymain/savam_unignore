@@ -97,6 +97,8 @@ export class SignupPage {
   }
 
   getPictures(){
+
+    //TODO
     this.imagePicker.getPictures({
     }).then( results =>{
       console.log(results);

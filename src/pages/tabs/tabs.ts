@@ -5,7 +5,7 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { NewsPage } from '../news/news';
 import { SearchPage } from '../search/search';
-
+import { NavParams, ViewController } from 'ionic-angular';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -17,8 +17,12 @@ export class TabsPage {
   tab3Root = ContactPage;
   tab4Root = SearchPage;
   tab5Root = NewsPage;
-
-  constructor() {
-
+  data: any;
+  
+  constructor( public viewCtrl: ViewController, public navParams: NavParams) {
+    this.viewCtrl = this.navParams.get('viewCtrl');
+    this.data = {
+      viewCtrl: this.viewCtrl
+    }
   }
 }

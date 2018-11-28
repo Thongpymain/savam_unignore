@@ -2,6 +2,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { IonicPage, NavController, NavParams, } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
+import { HttpClient } from '@angular/common/http';
+import {RestaurantInformationPage} from '../restaurant-information/restaurant-information';
 
 /**
  * Generated class for the SearchPage page.
@@ -20,17 +22,29 @@ export class SearchPage {
   lng: any;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
+  resterantDataLists: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation, private platform: Platform) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation, private platform: Platform, public http: HttpClient) {
 
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SearchPage');
-    this.loadMap();
+    this.getResterantDataLists();
+
   }
 
-  loadMap() {
+  getResterantDataLists() {
+    var resterantDatApiUrl = "http://savamapp.com/API/ListRestaurant";
+    this.http.get(resterantDatApiUrl).subscribe(data => {
+      this.resterantDataLists = data;
+      this.resterantDataLists = this.resterantDataLists.data;
+      this.loadMap(this.resterantDataLists);
+    });
+  }
+
+
+  loadMap(resterantDataLists) {
 
     if (this.platform.is('core')) {
       this.lat = -34.9290;
@@ -63,53 +77,55 @@ export class SearchPage {
     }
 
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
-
-    this.addMarker();
+    //TODO Add current position with blue marker
+    this.addMarker(resterantDataLists);
 
   }
 
-  addMarker() {
-    let testlatLng = new google.maps.LatLng(18.809512, 98.980589);
-    let testlatLng2 = new google.maps.LatLng(18.807985, 98.973513);
-
-    var locations = [
-      ['Cronulla Beach', 18.8080992, 98.9773775],
-      ['Manly Beach', 18.807985, 98.973513],
-      ['Maroubra Beach', 18.809512, 98.980589]
-    ];
+  addMarker(resterantDataLists) {
+    var resterantLocationLists = [];
+    for (var k = 0; k < resterantDataLists.length; k++) {
+      var resterantDatas = [];
+      resterantDatas.push(resterantDataLists[k].restaurant_name);
+      resterantDatas.push(resterantDataLists[k].restaurant_latitude);
+      resterantDatas.push(resterantDataLists[k].restaurant_longitude);
+      resterantDatas.push(resterantDataLists[k]);
+      resterantLocationLists.push(resterantDatas);
+    }
 
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
 
-    for (i = 0; i < locations.length; i++) {
+    for (i = 0; i < resterantLocationLists.length; i++) {
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        position: new google.maps.LatLng(resterantLocationLists[i][1], resterantLocationLists[i][2]),
         map: this.map
       });
 
-      let content = this.createContentMarker(locations[i][0]);
-
-      google.maps.event.addListener(marker, 'click', (function (marker, i) {
-        return function () {
-
-          infowindow.setContent(content);
-          google.maps.event.addListenerOnce(infowindow, 'domready', () => {
-            var goButtonElement = document.getElementById('goButton');
-            var goButtonValue = (<HTMLInputElement>goButtonElement).value;
-
-            goButtonElement.addEventListener('click', () => {
-              //TODO
-              alert("Goto " + goButtonValue);
-            });
-          });
-          infowindow.open(this.map, marker);
-        }
-      })(marker, i));
+      let content = this.createContentMarker(resterantLocationLists[i][0], i);
+      this.addEventListenerToMarker(this.navCtrl, marker, i, infowindow, content, resterantLocationLists[i][3]);
     }
   }
 
-  createContentMarker(name) {
+  addEventListenerToMarker(navCtrl, marker, i, infowindow, content, restuarantData) {
+    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+      return function () {
+
+        infowindow.setContent(content);
+        google.maps.event.addListenerOnce(infowindow, 'domready', () => {
+          var goButtonElement = document.getElementById('goButton');
+          var goButtonValue = (<HTMLInputElement>goButtonElement).value;
+          goButtonElement.addEventListener('click', () => {
+            navCtrl.setRoot(RestaurantInformationPage, restuarantData);
+          });
+        });
+        infowindow.open(this.map, marker);
+      }
+    })(marker, i));
+  }
+
+  createContentMarker(resterantName, resterantId) {
     let distance = "0,4 km";
     let city = "ทองหล่อ";
 
@@ -119,14 +135,14 @@ export class SearchPage {
       "<img src=\"assets/imgs/03-News/pic-news3.png\" class=\"contentMarkerImage\">" +
       "</div>" +
       "<div class=\"contentTextMarker\">"
-      + name +
+      + resterantName +
       "</div>" +
       "<div style=\"display:table;width: 100%;\">" +
       "<div style=\"text-align: center;\">" + "<img src=\"assets/icon/mappin.png\" style=\"width: 14px;\">" +
-      "<label style=\"margin-right: 10px; margin-left: 3px;\">" + city + "</label>" + "<label>" + distance + "</label>" +"</div>" +
+      "<label style=\"margin-right: 10px; margin-left: 3px;\">" + city + "</label>" + "<label>" + distance + "</label>" + "</div>" +
       "</div>" +
       "<div class=\"buttonInMarker\">" +
-      "<button id=\"goButton\" class=\"button\" value=\"" + name + "\">ดูต่อ</button>" +
+      "<button id=\"goButton\" class=\"button\" value=\"" + resterantId + "\">ดูต่อ</button>" +
       "</div>" +
       "</div>";
     return content;

@@ -1,0 +1,59 @@
+<!--
+  Generated template for the RestaurantInformationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="restaurantHeader">
+  <ion-navbar color="primary">
+    <ion-buttons left>
+      <button ion-button icon-only (click)="backButton()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-row>
+      <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
+    </ion-row>
+    <ion-row>
+      <div>
+        <ion-row>{{restaurant_name}}</ion-row>
+        <ion-row>{{district_name}}</ion-row>
+        <ion-row>{{openTime}}</ion-row>
+        <ion-row>{{telephone}}</ion-row>
+      </div>
+    </ion-row>
+    <ion-row>
+      <div>เมนูอาหาร</div>
+      <ion-slides slidesPerView="2.2" spaceBetween="1">
+        <ion-slide>
+          <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
+          <div>ขนมจีน</div>
+          <div>15 ฿</div>
+        </ion-slide>
+        <ion-slide>
+          <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
+          <div>ขนมจีน</div>
+          <div>15 ฿</div>
+        </ion-slide>
+        <ion-slide>
+          <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
+          <div>ขนมจีน</div>
+          <div>15 ฿</div>
+        </ion-slide>
+        <ion-slide>
+          <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
+          <div>ขนมจีน</div>
+          <div>15 ฿</div>
+        </ion-slide>
+      </ion-slides>
+    </ion-row>
+    <ion-row>
+      <div #map id='map'></div>
+    </ion-row>
+  </div>
+</ion-content>

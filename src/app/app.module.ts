@@ -25,6 +25,7 @@ import { Geolocation } from '@ionic-native/geolocation';
 import { HttpClientModule } from '@angular/common/http';
 import { IonicStorageModule } from '@ionic/storage';
 import { ImagePicker } from '@ionic-native/image-picker';
+import { RestaurantInformationPage} from '../pages/restaurant-information/restaurant-information';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ImagePicker } from '@ionic-native/image-picker';
     SigninPage,
     SignupPage,
     ForgotPasswordPage,
-    VerifyEmailPage
+    VerifyEmailPage,
+    RestaurantInformationPage
   ],
   imports: [
     BrowserModule,
@@ -67,7 +69,8 @@ import { ImagePicker } from '@ionic-native/image-picker';
     SigninPage,
     SignupPage,
     ForgotPasswordPage,
-    VerifyEmailPage
+    VerifyEmailPage,
+    RestaurantInformationPage
   ],
   providers: [
     StatusBar,
