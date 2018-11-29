@@ -4,6 +4,9 @@ import { IonicPage, NavController, NavParams, } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 import { HttpClient } from '@angular/common/http';
 import {RestaurantInformationPage} from '../restaurant-information/restaurant-information';
+import { AssertNotNull } from '@angular/compiler';
+import { HomePage } from '../home/home';
+
 
 /**
  * Generated class for the SearchPage page.
@@ -22,7 +25,8 @@ export class SearchPage {
   lng: any;
   @ViewChild('map') mapElement: ElementRef;
   map: any;
-  resterantDataLists: any;
+  restaurantDataLists: any;
+  restaurantName: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private geolocation: Geolocation, private platform: Platform, public http: HttpClient) {
 
@@ -37,14 +41,14 @@ export class SearchPage {
   getResterantDataLists() {
     var resterantDatApiUrl = "http://savamapp.com/API/ListRestaurant";
     this.http.get(resterantDatApiUrl).subscribe(data => {
-      this.resterantDataLists = data;
-      this.resterantDataLists = this.resterantDataLists.data;
-      this.loadMap(this.resterantDataLists);
+      this.restaurantDataLists = data;
+      this.restaurantDataLists = this.restaurantDataLists.data;
+      this.loadMap(this.restaurantDataLists);
     });
   }
 
 
-  loadMap(resterantDataLists) {
+  loadMap(restaurantDataLists) {
 
     if (this.platform.is('core')) {
       this.lat = -34.9290;
@@ -68,7 +72,14 @@ export class SearchPage {
       });
     }
 
-    let latLng = new google.maps.LatLng(18.8080992, 98.9773775);
+    this.setMapCenter(18.8080992, 98.9773775);
+    //TODO Add current position with blue marker
+    this.addMarker(restaurantDataLists);
+
+  }
+
+  setMapCenter(lat, lng){
+    let latLng = new google.maps.LatLng(lat, lng);
 
     let mapOptions = {
       center: latLng,
@@ -77,34 +88,31 @@ export class SearchPage {
     }
 
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
-    //TODO Add current position with blue marker
-    this.addMarker(resterantDataLists);
-
   }
 
-  addMarker(resterantDataLists) {
-    var resterantLocationLists = [];
-    for (var k = 0; k < resterantDataLists.length; k++) {
+  addMarker(restaurantDataLists) {
+    var restaurantLocationLists = [];
+    for (var k = 0; k < restaurantDataLists.length; k++) {
       var resterantDatas = [];
-      resterantDatas.push(resterantDataLists[k].restaurant_name);
-      resterantDatas.push(resterantDataLists[k].restaurant_latitude);
-      resterantDatas.push(resterantDataLists[k].restaurant_longitude);
-      resterantDatas.push(resterantDataLists[k]);
-      resterantLocationLists.push(resterantDatas);
+      resterantDatas.push(restaurantDataLists[k].restaurant_name);
+      resterantDatas.push(restaurantDataLists[k].restaurant_latitude);
+      resterantDatas.push(restaurantDataLists[k].restaurant_longitude);
+      resterantDatas.push(restaurantDataLists[k]);
+      restaurantLocationLists.push(resterantDatas);
     }
 
     var infowindow = new google.maps.InfoWindow();
 
     var marker, i;
 
-    for (i = 0; i < resterantLocationLists.length; i++) {
+    for (i = 0; i < restaurantLocationLists.length; i++) {
       marker = new google.maps.Marker({
-        position: new google.maps.LatLng(resterantLocationLists[i][1], resterantLocationLists[i][2]),
+        position: new google.maps.LatLng(restaurantLocationLists[i][1], restaurantLocationLists[i][2]),
         map: this.map
       });
 
-      let content = this.createContentMarker(resterantLocationLists[i][0], i);
-      this.addEventListenerToMarker(this.navCtrl, marker, i, infowindow, content, resterantLocationLists[i][3]);
+      let content = this.createContentMarker(restaurantLocationLists[i][0], i);
+      this.addEventListenerToMarker(this.navCtrl, marker, i, infowindow, content, restaurantLocationLists[i][3]);
     }
   }
 
@@ -146,5 +154,26 @@ export class SearchPage {
       "</div>" +
       "</div>";
     return content;
+  }
+
+  searchButton(){
+    if(this.restaurantName == undefined || this.restaurantName == ""){
+      this.getResterantDataLists();
+    } else {
+      //TODO Implement input is name of restaurant or name of location
+      var resterantDatApiUrl = "http://savamapp.com/API/SearchRestaurant/" + this.restaurantName;
+      this.http.get(resterantDatApiUrl).subscribe(data => {
+        this.restaurantDataLists = data;
+        this.restaurantDataLists = this.restaurantDataLists.data;
+  
+        this.setMapCenter(this.restaurantDataLists[0].restaurant_latitude, this.restaurantDataLists[0].restaurant_longitude);
+       //TODO
+       this.addMarker(this.restaurantDataLists);
+      });
+    }
+  }
+
+  cancleButton(){
+    this.navCtrl.setRoot(HomePage);
   }
 }
