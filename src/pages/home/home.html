@@ -35,7 +35,7 @@
       </ion-col>
     </ion-row>
     <ion-slides slidesPerView="2.2" spaceBetween="1">
-  <ion-slide *ngFor="let restaurantData of restaurantDataLists">
+  <ion-slide *ngFor="let restaurantData of restaurantDataLists" (click)="gotoRestaurantInfo(restaurantData)">
         <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
         <div>{{restaurantData.restaurant_name}}</div>
       </ion-slide>

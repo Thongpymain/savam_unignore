@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SearchPage } from '../search/search';
 import { HttpClient } from '@angular/common/http';
+import {RestaurantInformationPage} from '../restaurant-information/restaurant-information';
 
 @Component({
   selector: 'page-home',
@@ -55,6 +56,10 @@ export class HomePage {
 
   search(){
     this.navCtrl.push(SearchPage);
+  }
+
+  gotoRestaurantInfo(restaurantData){
+      this.navCtrl.setRoot(RestaurantInformationPage, restaurantData);
   }
 
 }
