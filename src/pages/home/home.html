@@ -13,44 +13,14 @@
 <ion-content class="bg-app">
   <div class="card">
     <ion-row style="padding-top: 20px;">
-      <ion-col col-3>
-        <button class="btn-home">
+      <ion-col col-3 *ngFor="let item of categoryDataListsWithArray">
+        <button class="btn-home" *ngIf="item[0].length != 0">
           <img src="assets/imgs/01-Home/01-sushi.png">
-          <p>อาหารญี่ปุ่น</p>
+          <p>{{item[0].product_type_name}}</p>
         </button>
-        <button class="btn-home">
+        <button class="btn-home" *ngIf="item[1].length != 0">
           <img src="assets/imgs/01-Home/01-sushi.png">
-          <p>อาหารจีน</p>
-        </button>
-      </ion-col>
-      <ion-col col-3>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/02-fried-rice.png">
-          <p>ตามสั่ง</p>
-        </button>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/02-fried-rice.png">
-          <p>ตามสั่ง</p>
-        </button>
-      </ion-col>    
-      <ion-col col-3>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/03-salmon.png"style="min-height: 32px;">
-          <p>สเต็ก</p>
-        </button>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/03-salmon.png"style="min-height: 32px;">
-          <p>สเต็ก</p>
-        </button>
-      </ion-col>    
-      <ion-col col-3>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/04-hamburger.png">
-          <p>ฟาสฟู๊ด</p>
-        </button>
-        <button class="btn-home">
-          <img src="assets/imgs/01-Home/04-hamburger.png">
-          <p>ฟาสฟู๊ด</p>
+          <p>{{item[1].product_type_name}}</p>
         </button>
       </ion-col>
     </ion-row>
