@@ -25,13 +25,13 @@
     <ion-row>
       <ul>
         <li>        
-          <button class="btn-setting">
+          <button class="btn-setting" (click)="gotoEditName()">
             <ion-row>
               <ion-col col-1 text-center>
                 <div class="icon-img"><img src="assets/imgs/04-Profile/profile user.png"></div>
               </ion-col>
               <ion-col col-5 text-left><h1>ชื่อผู้ใช้</h1></ion-col>
-              <ion-col col-5 text-right><p>lanKittichai</p></ion-col>
+              <ion-col col-5 text-right><p>{{name}}</p></ion-col>
               <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
             </ion-row>
           </button>
@@ -43,13 +43,13 @@
                 <div class="icon-img"><img src="assets/imgs/04-Profile/Icon-Mail.png"></div>
               </ion-col>
               <ion-col col-2 text-left><h1>อีเมล</h1></ion-col>
-              <ion-col col-8 text-right><p>lanKittichai@gmail.com</p></ion-col>
+              <ion-col col-8 text-right><p>{{email}}</p></ion-col>
               <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
             </ion-row>
           </button>
         </li><hr>
         <li>
-          <button class="btn-setting">
+          <button class="btn-setting" (click)="gotoEditPassword()">
             <ion-row>
               <ion-col col-1 text-center>
                 <div class="icon-img"><img src="assets/imgs/04-Profile/3F.png"></div>
@@ -67,25 +67,25 @@
     <ion-row>
       <ul>
         <li>
-          <button class="btn-setting">
+          <button class="btn-setting" (click)="gotoEditTelephoneNumber()">
             <ion-row>
               <ion-col col-1 text-center>
                 <div class="icon-img"><img src="assets/imgs/04-Profile/mobile2.png"></div>
               </ion-col>
               <ion-col col-5 text-left><h1>เบอร์โทรศัพท์</h1></ion-col>
-              <ion-col col-5 text-right><p>081 234 5678</p></ion-col>
+              <ion-col col-5 text-right><p>{{tel}}</p></ion-col>
               <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
             </ion-row>
           </button>
         </li><hr>
         <li>
-          <button class="btn-setting">
+          <button class="btn-setting" (click)="gotoBirthdate()">
             <ion-row>
               <ion-col col-1 text-center>
                 <div class="icon-img"><img src="assets/imgs/04-Profile/gift.png"></div>
               </ion-col>
               <ion-col col-5 text-left><h1>วัดเกิด</h1></ion-col>
-              <ion-col col-5 text-right><p>01-01-1972</p></ion-col>
+              <ion-col col-5 text-right><p>{{birthDate}}</p></ion-col>
               <ion-col col-1 text-center><ion-icon name="arrow-forward"></ion-icon></ion-col>
             </ion-row>
           </button>

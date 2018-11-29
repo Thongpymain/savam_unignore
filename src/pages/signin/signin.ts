@@ -23,6 +23,7 @@ export class SigninPage {
 
   email: string;
   password: string;
+  userData:any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient, public storage: Storage) {
   }
@@ -43,13 +44,20 @@ export class SigninPage {
     if (typeof this.email !== 'undefined' && typeof this.password !== 'undefined') {
       var loginApiUrl = "http://savamapp.com/API/LoginCheck/" + this.email + "/" + this.password;
       return new Promise(resolve => {
-        this.http.get(loginApiUrl).subscribe(isLoginSuccess => {
-          if (isLoginSuccess == 0) {
+        this.http.get(loginApiUrl).subscribe(data => {
+          if (data == 0) {
             alert("Email or password invalid");
           } else {
             //Save email and password to local storage
+            this.userData = data;
+            this.userData = this.userData.data
             this.storage.set("email", this.email);
             this.storage.set("password", this.password);
+            this.storage.set("fName", this.userData.fname);
+            this.storage.set("lName", this.userData.lname);
+            this.storage.set("tel", this.userData.tel);
+            this.storage.set("birthDate", this.userData.birthdate);
+            this.storage.set("user_pic", this.userData.user_pic);
             this.navCtrl.setRoot(TabsPage);
           }
         }, err => {

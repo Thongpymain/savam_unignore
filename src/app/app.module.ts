@@ -26,6 +26,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { IonicStorageModule } from '@ionic/storage';
 import { ImagePicker } from '@ionic-native/image-picker';
 import { RestaurantInformationPage} from '../pages/restaurant-information/restaurant-information';
+import { EditBirthdatePage} from '../pages/edit-birthdate/edit-birthdate';
+import { EditNamePage} from '../pages/edit-name/edit-name';
+import { EditPasswordPage} from '../pages/edit-password/edit-password';
+import { EditTelephoneNumberPage} from '../pages/edit-telephone-number/edit-telephone-number';
 
 @NgModule({
   declarations: [
@@ -43,7 +47,11 @@ import { RestaurantInformationPage} from '../pages/restaurant-information/restau
     SignupPage,
     ForgotPasswordPage,
     VerifyEmailPage,
-    RestaurantInformationPage
+    RestaurantInformationPage,
+    EditBirthdatePage,
+    EditNamePage,
+    EditPasswordPage,
+    EditTelephoneNumberPage
   ],
   imports: [
     BrowserModule,
@@ -70,7 +78,11 @@ import { RestaurantInformationPage} from '../pages/restaurant-information/restau
     SignupPage,
     ForgotPasswordPage,
     VerifyEmailPage,
-    RestaurantInformationPage
+    RestaurantInformationPage,
+    EditBirthdatePage,
+    EditNamePage,
+    EditPasswordPage,
+    EditTelephoneNumberPage
   ],
   providers: [
     StatusBar,
