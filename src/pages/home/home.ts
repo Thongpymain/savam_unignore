@@ -11,6 +11,7 @@ export class HomePage {
 
   categoryDataLists: any;
   categoryDataListsWithArray: any;
+  restaurantDataLists: any;
   constructor(public navCtrl: NavController, public http: HttpClient) {
 
   }
@@ -23,7 +24,6 @@ export class HomePage {
     this.http.get(menuCategoryApiUrl).subscribe(data => {
       this.categoryDataLists = data;
       this.categoryDataLists = this.categoryDataLists.data;
-      // for(var k=0;k<2;k++){
       for(var i=0; i < this.categoryDataLists.length; i++) {
         menuCategoryLists.push(this.categoryDataLists[i]);
 
@@ -40,8 +40,16 @@ export class HomePage {
             menuCategoryLists = [];
         }
       }
-    // }
-    console.log("111111111 length: " + this.categoryDataListsWithArray.length);
+    });
+
+    this.getResterantDataLists();
+  }
+
+  getResterantDataLists() {
+    var resterantDatApiUrl = "http://savamapp.com/API/ListRestaurant";
+    this.http.get(resterantDatApiUrl).subscribe(data => {
+      this.restaurantDataLists = data;
+      this.restaurantDataLists = this.restaurantDataLists.data;
     });
   }
 

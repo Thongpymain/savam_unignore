@@ -34,18 +34,10 @@
         <div class="view-text">ดูทั้งหมด</div>
       </ion-col>
     </ion-row>
-    <ion-slides slidesPerView="2.2" spaceBetween="1"> 
-      <ion-slide>
+    <ion-slides slidesPerView="2.2" spaceBetween="1">
+  <ion-slide *ngFor="let restaurantData of restaurantDataLists">
         <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
-      </ion-slide>
-      <ion-slide>
-        <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
-      </ion-slide>
-      <ion-slide>
-        <img src="assets/imgs/01-Home/pexels-photo-675951.png" style="width: 95%;">
-      </ion-slide>
-      <ion-slide>
-        <img src="assets/imgs/01-Home/pexels-photo-675951-2.png" style="width: 95%;">
+        <div>{{restaurantData.restaurant_name}}</div>
       </ion-slide>
     </ion-slides>
   </div>
