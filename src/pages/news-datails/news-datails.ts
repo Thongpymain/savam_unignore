@@ -14,8 +14,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'news-datails.html',
 })
 export class NewsDatailsPage {
-
+  articleHeader:any;
+  articleDetails:any;
+  articleDate:any;
+  articlePic:any;
+  data:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    console.log("2222222" + navParams.get('data'));
+    this.data = navParams.get('data');
+    this.articleHeader = this.data.news_header;
+    this.articleDetails = this.data.news_detail;
+    this.articleDate =this.data.news_date;
+    this.articlePic = this.data.stpic;
   }
 
   ionViewDidLoad() {

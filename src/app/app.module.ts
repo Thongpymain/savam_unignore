@@ -17,7 +17,7 @@ import { SearchPage } from '../pages/search/search';
 import { TabsPage } from '../pages/tabs/tabs';
 import { ProfileConfigPage } from '../pages/profile-config/profile-config';
 import { ContactusPage } from '../pages/contactus/contactus';
-
+import { NewsDatailsPage } from '../pages/news-datails/news-datails';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -53,7 +53,8 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     EditBirthdatePage,
     EditNamePage,
     EditPasswordPage,
-    EditTelephoneNumberPage
+    EditTelephoneNumberPage,
+    NewsDatailsPage
   ],
   imports: [
     BrowserModule,
@@ -84,7 +85,8 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     EditBirthdatePage,
     EditNamePage,
     EditPasswordPage,
-    EditTelephoneNumberPage
+    EditTelephoneNumberPage,
+    NewsDatailsPage
   ],
   providers: [
     StatusBar,

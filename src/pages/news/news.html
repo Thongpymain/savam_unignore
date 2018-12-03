@@ -14,40 +14,32 @@
 
 
 <ion-content>
-  <div class="head-text">ข่าวสาร</div><hr>
+  <div class="head-text">ข่าวสาร</div>
+  <hr>
   <ion-row>
     <div class="new-shop">ร้านมาใหม่</div>
   </ion-row>
-  <ion-row>
-    <div class="head-text-news">House Of Eden คาเฟ่สีชมพูสะดุดตา เปิดใหม่บนชั้น 2 CentralWorld</div>
-  </ion-row>
-  <ion-row class="first-news">
-    <img src="assets/imgs/03-News/pic-news3.png">
-  </ion-row>
-  <ion-row class="text-first-news">
-    <p>เรียกความตื่นเต้นจากเหล่าสาว ๆ สาย Cafe Hopping ได้ดีกันอีกครั้งกับ 
-      House Of Eden คาเฟ่เปิดใหม่บนชั้น 2 ของโครงการ Go...</p>
-  </ion-row><hr>
-  <ion-row>
+  <div *ngFor="let atleastArticle of atleastArticleLists">
+    <ion-row>
+      <div class="head-text-news" (click)="gotoNewsDetails(atleastArticle)">{{atleastArticle.news_header}}</div>
+    </ion-row>
+    <ion-row class="first-news">
+      <img src="http://savamapp.com/storage/article/{{atleastArticle.stpic}}.jpg">
+    </ion-row>
+    <ion-row class="text-first-news">
+      <p>{{atleastArticle.news_detail}}</p>
+    </ion-row>
+  </div>
+  <hr>
+  <ion-row *ngFor="let article of allArticleLists">
     <ion-col col-4>
       <div class="news-details">
-        <img src="assets/imgs/03-News/pic-news1.png">
+        <img src="http://savamapp.com/storage/article/{{article.stpic}}.jpg">
       </div>
     </ion-col>
     <ion-col col-8>
-      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>
-      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>
-    </ion-col>
-  </ion-row><hr>
-  <ion-row>
-    <ion-col col-4>
-      <div class="news-details">
-        <img src="assets/imgs/03-News/pic-news1.png">
-      </div>
-    </ion-col>
-    <ion-col col-8>
-      <h1>Lhong Tou Cafe คาเฟ่เล็ก ๆ แต่อัดแน่นไปด้วยเมนูคุณภาพ</h1>
-      <p>นอกจากเยาวราชจะเป็นย่านที่ทุกคนนึกถึงอาหารสตรีทฟู้ดแล้ว ที่นี่ยังมีคาเ…</p>
+      <h1 (click)="gotoNewsDetails(article)">{{article.news_header}}</h1>
+      <p>{{article.news_detail}}</p>
     </ion-col>
   </ion-row>
 </ion-content>
