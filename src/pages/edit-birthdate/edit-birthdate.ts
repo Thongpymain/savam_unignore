@@ -23,11 +23,18 @@ export class EditBirthdatePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditBirthdatePage');
+    this.getBirthdateFromStorage();
   }
 
   saveButton(){
     this.storage.set("birthDate", this.brithdate);
     this.webservices.updateUserInformation();
-    this.navCtrl.push(ProfileConfigPage);
+    this.navCtrl.setRoot(ProfileConfigPage);
+  }
+
+  getBirthdateFromStorage() {
+    this.storage.get('brithdate').then((brithdate) => {
+      this.brithdate = brithdate;
+    });
   }
 }

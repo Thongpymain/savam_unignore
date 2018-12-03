@@ -56,6 +56,6 @@ export class EditNamePage {
     this.storage.set("fName", this.fName);
     this.storage.set("lName", this.lName);
     this.webservices.updateUserInformation();
-    this.navCtrl.push(ProfileConfigPage);
+    this.navCtrl.setRoot(ProfileConfigPage);
   }
 }

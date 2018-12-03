@@ -43,23 +43,20 @@ export class ProfileConfigPage {
 
   getNameFromStorage() {
     this.storage.get('fName').then((fName) => {
-      this.fName = fName;
+      this.storage.get('lName').then((lName) => {
+        if (fName == null || fName == "null" ||
+        lName == null || lName == "null") {
+        fName = "";
+        lName = "";
+      }
+  
+      if (fName == "" && lName == "") {
+        lName = "ไม่มีข้อมูล";
+      }
+  
+      this.name = fName + " " + lName;
+      });
     });
-    this.storage.get('lName').then((lName) => {
-      this.lName = lName;
-    });
-
-    if (this.fName == null || this.fName == "null" ||
-      this.lName == null || this.lName == "null") {
-      this.fName = "";
-      this.lName = "";
-    }
-
-    if (this.fName == "" && this.lName == "") {
-      this.lName = "ไม่มีข้อมูล";
-    }
-
-    this.name = this.fName + " " + this.lName;
   }
 
   getEmailFromStorage() {

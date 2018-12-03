@@ -36,7 +36,7 @@ export class EditPasswordPage {
         if (this.newPassword == this.confirmPassword) {
           this.storage.set("password", this.newPassword);
           this.webservices.updateUserInformation();
-          this.navCtrl.push(ProfileConfigPage);
+          this.navCtrl.setRoot(ProfileConfigPage);
         } else {
           alert("รหัสผ่านไม่ตรงกัน");
         }

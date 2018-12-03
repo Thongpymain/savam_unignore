@@ -23,11 +23,18 @@ export class EditTelephoneNumberPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditTelephoneNumberPage');
+    this.getTelephoneNumberFromStorage();
   }
 
   saveButton(){
     this.storage.set("tel", this.telephoneNumber);
     this.webservices.updateUserInformation();
-    this.navCtrl.push(ProfileConfigPage);
+    this.navCtrl.setRoot(ProfileConfigPage);
+  }
+
+  getTelephoneNumberFromStorage(){
+    this.storage.get('tel').then((telephoneNumber) => {
+      this.telephoneNumber = telephoneNumber;
+    });
   }
 }
