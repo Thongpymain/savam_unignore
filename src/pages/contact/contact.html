@@ -30,7 +30,7 @@
             </ion-col>
             <ion-col col-10 text-left><h1>การแจ้งเตือน</h1></ion-col>
             <ion-col col-1 text-center>
-              <ion-toggle checked="false" style="float: right;"></ion-toggle>
+              <ion-toggle checked="false" style="float: right;" [(ngModel)]='isNotificationShow' (ionChange)="enableNotification()"></ion-toggle>
             </ion-col>
           </ion-row>
         </button>

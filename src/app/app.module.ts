@@ -31,6 +31,7 @@ import { EditNamePage} from '../pages/edit-name/edit-name';
 import { EditPasswordPage} from '../pages/edit-password/edit-password';
 import { EditTelephoneNumberPage} from '../pages/edit-telephone-number/edit-telephone-number';
 import { Webservices } from '../pages/Controller/webservices';
+import { AndroidPermissions } from '@ionic-native/android-permissions';
 
 @NgModule({
   declarations: [
@@ -90,6 +91,7 @@ import { Webservices } from '../pages/Controller/webservices';
     SplashScreen,Geolocation,
     ImagePicker,
     Webservices,
+    AndroidPermissions,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

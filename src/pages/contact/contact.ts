@@ -4,13 +4,16 @@ import { ProfileConfigPage } from '../profile-config/profile-config';
 import { ContactusPage } from '../contactus/contactus';
 import { Modal, ModalController, ModalOptions } from 'ionic-angular';
 import { WelcomePage } from '../welcome/welcome';
+import { AndroidPermissions } from '@ionic-native/android-permissions';
+import { Storage } from '@ionic/storage';
+
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html'
 })
 export class ContactPage {
-
-  constructor(public navCtrl: NavController,public modalCtrl: ModalController, public config: Config) {
+  isNotificationShow: any;
+  constructor(public navCtrl: NavController,public modalCtrl: ModalController, public config: Config, public androidPermissions: AndroidPermissions, public storage: Storage) {
 
   }
   ProfileConfig() {
@@ -21,8 +24,12 @@ export class ContactPage {
   }
 
   signoutButton() {
-    //TODO remove user in local storage
-    this.config.set('tabsHideOnSubPages', false)
+    this.config.set('tabsHideOnSubPages', false);
+    this.storage.clear();
     this.navCtrl.push(WelcomePage);
+  }
+
+  enableNotification() {
+    //TODO disable push notification
   }
 }
