@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
+import { ProfileConfigPage } from '../profile-config/profile-config';
+import { Webservices } from '../Controller/webservices';
 
 /**
  * Generated class for the EditPasswordPage page.
@@ -14,12 +17,33 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'edit-password.html',
 })
 export class EditPasswordPage {
+  oldPassword: any;
+  newPassword: any;
+  confirmPassword: any;
+  currentPassword: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage, public webservices:Webservices) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditPasswordPage');
   }
 
+  saveButton() {
+    this.storage.get('password').then((currentPassword) => {
+      this.currentPassword = currentPassword;
+      if (this.currentPassword == this.oldPassword) {
+        if (this.newPassword == this.confirmPassword) {
+          this.storage.set("password", this.newPassword);
+          this.webservices.updateUserInformation();
+          this.navCtrl.push(ProfileConfigPage);
+        } else {
+          alert("รหัสผ่านไม่ตรงกัน");
+        }
+      } else {
+        alert("รหัสผ่านไม่ตรงกัน");
+      }
+    });
+
+  }
 }

@@ -51,6 +51,7 @@ export class SigninPage {
             //Save email and password to local storage
             this.userData = data;
             this.userData = this.userData.data
+            this.storage.set("username", this.userData.username);
             this.storage.set("email", this.email);
             this.storage.set("password", this.password);
             this.storage.set("fName", this.userData.fname);

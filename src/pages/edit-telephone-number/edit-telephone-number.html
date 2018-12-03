@@ -14,5 +14,6 @@
 
 
 <ion-content padding>
-
+  <ion-row><ion-input placeholder="เบอร์โทรศัพท์" [(ngModel)]='telephoneNumber'></ion-input></ion-row>
+  <ion-row><button class="save-btn" (click)="saveButton()">Save</button></ion-row>
 </ion-content>

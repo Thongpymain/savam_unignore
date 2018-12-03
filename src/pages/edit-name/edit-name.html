@@ -14,5 +14,7 @@
 
 
 <ion-content padding>
-
+  <ion-row><ion-input id = "firstName" placeholder="ชื่อ" [(ngModel)]='fName'></ion-input></ion-row>
+  <ion-row><ion-input placeholder="นามสกุล" [(ngModel)]='lName'></ion-input></ion-row>
+  <ion-row><button class="save-btn" (click)="saveButton()">Save</button></ion-row>
 </ion-content>

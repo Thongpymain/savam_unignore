@@ -14,5 +14,6 @@
 
 
 <ion-content padding>
-
+  <ion-row><ion-datetime displayFormat="DD-MM-YYYY" [(ngModel)]="brithdate"></ion-datetime></ion-row>
+  <ion-row><button class="save-btn" (click)="saveButton()">Save</button></ion-row>
 </ion-content>

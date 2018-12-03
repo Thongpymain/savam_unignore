@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
+import { ProfileConfigPage } from '../profile-config/profile-config';
+import { Webservices } from '../Controller/webservices';
 
 /**
  * Generated class for the EditTelephoneNumberPage page.
@@ -14,12 +17,17 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'edit-telephone-number.html',
 })
 export class EditTelephoneNumberPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  telephoneNumber: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public storage: Storage, public webservices:Webservices) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditTelephoneNumberPage');
   }
 
+  saveButton(){
+    this.storage.set("tel", this.telephoneNumber);
+    this.webservices.updateUserInformation();
+    this.navCtrl.push(ProfileConfigPage);
+  }
 }

@@ -30,6 +30,7 @@ import { EditBirthdatePage} from '../pages/edit-birthdate/edit-birthdate';
 import { EditNamePage} from '../pages/edit-name/edit-name';
 import { EditPasswordPage} from '../pages/edit-password/edit-password';
 import { EditTelephoneNumberPage} from '../pages/edit-telephone-number/edit-telephone-number';
+import { Webservices } from '../pages/Controller/webservices';
 
 @NgModule({
   declarations: [
@@ -88,6 +89,7 @@ import { EditTelephoneNumberPage} from '../pages/edit-telephone-number/edit-tele
     StatusBar,
     SplashScreen,Geolocation,
     ImagePicker,
+    Webservices,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
