@@ -53,7 +53,6 @@ export class SignupPage {
               if(this.validateEmail(this.email)) {
                 this.http.get(emailAPIUrl).subscribe(isEmailAlreadyExits => {
                   if (isEmailAlreadyExits == 0) {
-                    //TODO
                     alert("Email is already exits");
                   } else {
                     if ((typeof this.password !== 'undefined') && (typeof this.confirmPassword !== 'undefined')) {
@@ -61,7 +60,6 @@ export class SignupPage {
                         var addUserAPIUrl = this.savamAppURL + "AddUser/" + this.username + "/" + this.password + "/null/" + this.email + "/null/2000-01-01";
                         this.http.get(addUserAPIUrl).subscribe(isInsertUserSuccess => {
                           if (isInsertUserSuccess == 1) {
-                            //TODO
                             alert("Register Success");
                             this.navCtrl.push(SigninPage);
                           } else {
@@ -71,7 +69,6 @@ export class SignupPage {
                           console.log(err);
                         });
                       } else {
-                        //TODO
                         alert("Password not equal");
                       }
                     }

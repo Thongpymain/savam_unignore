@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { SearchPage } from '../search/search';
 import { HttpClient } from '@angular/common/http';
 import {RestaurantInformationPage} from '../restaurant-information/restaurant-information';
+import { ResterantListsPage} from '../resterant-lists/resterant-lists';
 
 @Component({
   selector: 'page-home',
@@ -62,4 +63,9 @@ export class HomePage {
       this.navCtrl.setRoot(RestaurantInformationPage, restaurantData);
   }
 
+  gotoRestaurantListByCategory(id_product_type){
+    this.navCtrl.push(ResterantListsPage, {
+      data: id_product_type
+    });
+  } 
 }

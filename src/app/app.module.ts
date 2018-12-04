@@ -32,6 +32,8 @@ import { EditPasswordPage} from '../pages/edit-password/edit-password';
 import { EditTelephoneNumberPage} from '../pages/edit-telephone-number/edit-telephone-number';
 import { Webservices } from '../pages/Controller/webservices';
 import { AndroidPermissions } from '@ionic-native/android-permissions';
+import { ResterantListsPage} from '../pages/resterant-lists/resterant-lists';
+
 
 @NgModule({
   declarations: [
@@ -54,7 +56,8 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     EditNamePage,
     EditPasswordPage,
     EditTelephoneNumberPage,
-    NewsDatailsPage
+    NewsDatailsPage,
+    ResterantListsPage
   ],
   imports: [
     BrowserModule,
@@ -86,7 +89,8 @@ import { AndroidPermissions } from '@ionic-native/android-permissions';
     EditNamePage,
     EditPasswordPage,
     EditTelephoneNumberPage,
-    NewsDatailsPage
+    NewsDatailsPage,
+    ResterantListsPage
   ],
   providers: [
     StatusBar,

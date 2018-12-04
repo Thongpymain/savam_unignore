@@ -20,7 +20,6 @@ export class NewsDatailsPage {
   articlePic:any;
   data:any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    console.log("2222222" + navParams.get('data'));
     this.data = navParams.get('data');
     this.articleHeader = this.data.news_header;
     this.articleDetails = this.data.news_detail;
