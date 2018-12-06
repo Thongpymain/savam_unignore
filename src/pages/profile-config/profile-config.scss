@@ -88,6 +88,10 @@ page-profile-config {
         width: 100%;
         margin-right: 10px;
     }
+    li{
+        border-bottom: 1px solid #ececec;
+        padding: 10px 0;
+    }
     h1 {
         font-size: 18px;
         margin-top: 0px;
@@ -119,5 +123,9 @@ page-profile-config {
         margin-top: 40px;
         margin-bottom: 35px;
         margin-right: -40px;
+    }
+    .noborder {
+        border: none;
+        padding: 10px 0 0 0;
     }
 }

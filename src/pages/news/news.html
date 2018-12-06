@@ -16,25 +16,26 @@
 <ion-content>
   <div class="head-text">ข่าวสาร</div>
   <hr>
-  <ion-row>
-    <div class="new-shop">ร้านมาใหม่</div>
-  </ion-row>
-  <div *ngFor="let atleastArticle of atleastArticleLists">
+  <div class="first-article_box">
     <ion-row>
-      <div class="head-text-news" (click)="gotoNewsDetails(atleastArticle)">{{atleastArticle.news_header}}</div>
+      <div class="new-shop">ร้านมาใหม่</div>
     </ion-row>
-    <ion-row class="first-news">
-      <img src="http://savamapp.com/storage/article/{{atleastArticle.stpic}}.jpg">
-    </ion-row>
-    <ion-row class="text-first-news">
-      <p>{{atleastArticle.news_detail}}</p>
-    </ion-row>
+    <div *ngFor="let atleastArticle of atleastArticleLists">
+      <ion-row>
+        <div class="head-text-news" (click)="gotoNewsDetails(atleastArticle)">{{atleastArticle.news_header}}</div>
+      </ion-row>
+      <ion-row class="first-news">
+        <img (click)="gotoNewsDetails(atleastArticle)" src="http://savamapp.com/storage/article/{{atleastArticle.stpic}}.jpg">
+      </ion-row>
+      <ion-row class="text-first-news">
+        <p>{{atleastArticle.news_detail}}</p>
+      </ion-row>
+    </div>
   </div>
-  <hr>
-  <ion-row *ngFor="let article of allArticleLists">
+  <ion-row *ngFor="let article of allArticleLists" class="article_box">
     <ion-col col-4>
-      <div class="news-details">
-        <img src="http://savamapp.com/storage/article/{{article.stpic}}.jpg">
+      <div class="news-details img-cropper">
+        <img (click)="gotoNewsDetails(article)" src="http://savamapp.com/storage/article/{{article.stpic}}.jpg">
       </div>
     </ion-col>
     <ion-col col-8>

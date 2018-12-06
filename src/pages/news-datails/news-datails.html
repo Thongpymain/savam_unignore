@@ -6,16 +6,20 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>{{articleHeader}}</ion-title>
+  <ion-navbar class="news-details">
+    <!-- <ion-title>{{articleHeader}}</ion-title> -->
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
 <div><img src="http://savamapp.com/storage/article/{{articlePic}}.jpg"></div>
-<div>{{articleHeader}}</div>
-<div>{{articleDate}}</div>
-<div>{{articleDetails}}</div>
+<div class="news-details_content">
+    <div class="content_header">
+      <div class="news-details_article_header">{{articleHeader}}</div>
+      <div class="news-details_article_date">โพสเมื่อ {{articleDate}}</div>
+    </div>
+    <div class="news-details_article_details">{{articleDetails}}</div>
+</div>
 </ion-content>

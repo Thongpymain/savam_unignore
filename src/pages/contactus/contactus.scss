@@ -51,10 +51,13 @@ page-contactus {
     }
     ul{
         list-style: none;
-        padding-left: 10px;
+        padding: 0 10px;
         width: 100%;
-        margin-right: 10px;
         margin-bottom: 50px;
+    }
+    li{
+        border-bottom: 1px solid #ececec;
+        padding: 10px 0;
     }
     .toggle-ios.toggle-checked .toggle-icon {
         background-color: #F26618;

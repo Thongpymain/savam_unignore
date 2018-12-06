@@ -50,6 +50,7 @@ page-contact {
     }
     ion-icon {
         font-size: 16px;
+        color: #999;
     }
     .profile-img img {
         margin: auto;
@@ -87,6 +88,12 @@ page-contact {
         width: 100%;
         margin-right: 10px;
         margin-bottom: 0px;
+    }
+    li{
+        border-bottom: 1px solid #ececec;
+    }
+    .noborder{
+        border: none;
     }
     .toggle-ios.toggle-checked .toggle-icon {
         background-color: #F26618;
